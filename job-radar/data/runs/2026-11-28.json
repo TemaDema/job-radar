@@ -3,9 +3,10 @@
   "runs": [
     {
       "env": "local",
-      "at": "2026-11-27T23:11:17.556Z",
+      "at": "2026-11-27T23:12:18.844Z",
       "sourcesOk": [
-        "rabota.by"
+        "rabota.by",
+        "telegram"
       ],
       "sourcesFailed": [
         "linkedin"
