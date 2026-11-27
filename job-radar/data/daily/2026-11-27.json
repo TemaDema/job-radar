@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-27",
+  "generatedAt": "2026-11-27T19:33:33.952Z",
+  "sources": [
+    "telegram"
+  ],
+  "newTotal": 73,
+  "newEntry": 21,
+  "searchErrors": 0,
+  "remoteEntry": 3,
+  "withSalary": 3,
+  "bySource": {
+    "rabota.by": 39,
+    "telegram": 34
+  },
+  "byTrack": {
+    "Администрирование": {
+      "count": 1,
+      "strict": 1,
+      "salaryMedian": 2350,
+      "withSalary": 1
+    },
+    "Backend / Python": {
+      "count": 1,
+      "strict": 0,
+      "salaryMedian": null,
+      "withSalary": 0
+    },
+    "Поддержка / Helpdesk": {
+      "count": 1,
+      "strict": 1,
+      "salaryMedian": 2500,
+      "withSalary": 1
+    },
+    "QA / Тестирование": {
+      "count": 5,
+      "strict": 1,
+      "salaryMedian": 2500,
+      "withSalary": 1
+    },
+    "Junior": {
+      "count": 7,
+      "strict": 0,
+      "salaryMedian": null,
+      "withSalary": 0
+    },
+    "Стажировки": {
+      "count": 1,
+      "strict": 0,
+      "salaryMedian": null,
+      "withSalary": 0
+    },
+    "Telegram / чаты": {
+      "count": 2,
+      "strict": 0,
+      "salaryMedian": null,
+      "withSalary": 0
+    },
+    "UI/UX дизайн": {
+      "count": 1,
+      "strict": 0,
+      "salaryMedian": null,
+      "withSalary": 0
+    },
+    "DevOps / Cloud": {
+      "count": 1,
+      "strict": 0,
+      "salaryMedian": null,
+      "withSalary": 0
+    },
+    "Backend / Java": {
+      "count": 1,
+      "strict": 0,
+      "salaryMedian": null,
+      "withSalary": 0
+    }
+  },
+  "topSkills": {
+    "Linux": 4,
+    "API": 3,
+    "Docker": 3,
+    "Python": 3,
+    "SQL": 3,
+    "QA": 3,
+    "Windows Server": 2,
+    "Ansible": 2,
+    "Git": 2,
+    "Grafana": 2,
+    "MySQL": 2,
+    "PostgreSQL": 2,
+    "Prometheus": 2,
+    "AWS": 2,
+    "CI/CD": 2
+  },
+  "topCompanies": {
+    "@jobforjunior": 13,
+    "Туссон": 2,
+    "@team_inno_jobs": 2,
+    "@forallqa": 2,
+    "ГУ РНПЦ травматологии и ортопедии": 1,
+    "АльфаМилк": 1
+  }
+}

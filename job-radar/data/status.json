@@ -1,0 +1,43 @@
+{
+  "lastRunAt": "2026-11-27T19:33:27.496Z",
+  "lastSuccessAt": "2026-11-27T19:33:34.033Z",
+  "today": "2026-11-27",
+  "sources": [
+    "telegram"
+  ],
+  "newTotal": 73,
+  "newEntry": 21,
+  "searchErrors": 0,
+  "captcha": false,
+  "backfilled": 6,
+  "missedFullDays": 0,
+  "history": [
+    {
+      "at": "2026-11-27T19:32:40.640Z",
+      "today": "2026-11-27",
+      "newTotal": 73,
+      "newEntry": 21,
+      "sources": [
+        "telegram"
+      ]
+    },
+    {
+      "at": "2026-11-27T19:33:23.904Z",
+      "today": "2026-11-27",
+      "newTotal": 73,
+      "newEntry": 21,
+      "sources": [
+        "telegram"
+      ]
+    },
+    {
+      "at": "2026-11-27T19:33:34.033Z",
+      "today": "2026-11-27",
+      "newTotal": 73,
+      "newEntry": 21,
+      "sources": [
+        "telegram"
+      ]
+    }
+  ]
+}

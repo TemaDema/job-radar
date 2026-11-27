@@ -1,0 +1,700 @@
+{
+  "week": "2026-W48",
+  "window": {
+    "start": "2026-11-21",
+    "end": "2026-11-27",
+    "days": 7,
+    "prevStart": "2026-11-14",
+    "prevEnd": "2026-11-20"
+  },
+  "totals": {
+    "newAll": 305,
+    "newEntry": 46,
+    "prevAll": 0,
+    "prevEntry": 0,
+    "strictNoExperience": 23,
+    "remote": 10,
+    "withSalary": 12,
+    "marketEntryShare": 15,
+    "bySource": {
+      "rabota.by": 271,
+      "telegram": 34
+    }
+  },
+  "byTrack": {
+    "Backend / Python": {
+      "newAll": 7,
+      "newEntry": 1,
+      "prevEntry": 0,
+      "salary": {
+        "n": 0,
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "min": null,
+        "max": null
+      }
+    },
+    "Frontend / JS": {
+      "newAll": 10,
+      "newEntry": 1,
+      "prevEntry": 0,
+      "salary": {
+        "n": 0,
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "min": null,
+        "max": null
+      }
+    },
+    "Backend / Java": {
+      "newAll": 8,
+      "newEntry": 1,
+      "prevEntry": 0,
+      "salary": {
+        "n": 0,
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "min": null,
+        "max": null
+      }
+    },
+    "Backend / .NET": {
+      "newAll": 6,
+      "newEntry": 0,
+      "prevEntry": 0,
+      "salary": {
+        "n": 0,
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "min": null,
+        "max": null
+      }
+    },
+    "Backend / PHP": {
+      "newAll": 6,
+      "newEntry": 0,
+      "prevEntry": 0,
+      "salary": {
+        "n": 0,
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "min": null,
+        "max": null
+      }
+    },
+    "QA / Тестирование": {
+      "newAll": 33,
+      "newEntry": 7,
+      "prevEntry": 0,
+      "salary": {
+        "n": 2,
+        "median": 2025,
+        "p25": 1550,
+        "p75": 2500,
+        "min": 1550,
+        "max": 2500
+      }
+    },
+    "Аналитика": {
+      "newAll": 36,
+      "newEntry": 1,
+      "prevEntry": 0,
+      "salary": {
+        "n": 0,
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "min": null,
+        "max": null
+      }
+    },
+    "Data / ML": {
+      "newAll": 6,
+      "newEntry": 0,
+      "prevEntry": 0,
+      "salary": {
+        "n": 0,
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "min": null,
+        "max": null
+      }
+    },
+    "Администрирование": {
+      "newAll": 51,
+      "newEntry": 3,
+      "prevEntry": 0,
+      "salary": {
+        "n": 3,
+        "median": 2150,
+        "p25": 2150,
+        "p75": 2350,
+        "min": 1500,
+        "max": 2350
+      }
+    },
+    "Поддержка / Helpdesk": {
+      "newAll": 21,
+      "newEntry": 5,
+      "prevEntry": 0,
+      "salary": {
+        "n": 4,
+        "median": 1700,
+        "p25": 1400,
+        "p75": 2000,
+        "min": 1200,
+        "max": 2500
+      }
+    },
+    "DevOps / Cloud": {
+      "newAll": 16,
+      "newEntry": 2,
+      "prevEntry": 0,
+      "salary": {
+        "n": 0,
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "min": null,
+        "max": null
+      }
+    },
+    "UI/UX дизайн": {
+      "newAll": 13,
+      "newEntry": 2,
+      "prevEntry": 0,
+      "salary": {
+        "n": 0,
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "min": null,
+        "max": null
+      }
+    },
+    "1С / ERP": {
+      "newAll": 23,
+      "newEntry": 0,
+      "prevEntry": 0,
+      "salary": {
+        "n": 0,
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "min": null,
+        "max": null
+      }
+    },
+    "Backend / другое": {
+      "newAll": 13,
+      "newEntry": 2,
+      "prevEntry": 0,
+      "salary": {
+        "n": 1,
+        "median": 1750,
+        "p25": 1750,
+        "p75": 1750,
+        "min": 1750,
+        "max": 1750
+      }
+    },
+    "Стажировки": {
+      "newAll": 7,
+      "newEntry": 7,
+      "prevEntry": 0,
+      "salary": {
+        "n": 2,
+        "median": 1850,
+        "p25": 1000,
+        "p75": 2700,
+        "min": 1000,
+        "max": 2700
+      }
+    },
+    "Junior": {
+      "newAll": 10,
+      "newEntry": 10,
+      "prevEntry": 0,
+      "salary": {
+        "n": 0,
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "min": null,
+        "max": null
+      }
+    },
+    "Разработка (общее)": {
+      "newAll": 31,
+      "newEntry": 2,
+      "prevEntry": 0,
+      "salary": {
+        "n": 0,
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "min": null,
+        "max": null
+      }
+    },
+    "Telegram / чаты": {
+      "newAll": 8,
+      "newEntry": 2,
+      "prevEntry": 0,
+      "salary": {
+        "n": 0,
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "min": null,
+        "max": null
+      }
+    }
+  },
+  "topSkills": [
+    {
+      "name": "Git",
+      "count": 7,
+      "prev": 0
+    },
+    {
+      "name": "QA",
+      "count": 6,
+      "prev": 0
+    },
+    {
+      "name": "Linux",
+      "count": 6,
+      "prev": 0
+    },
+    {
+      "name": "Python",
+      "count": 6,
+      "prev": 0
+    },
+    {
+      "name": "SQL",
+      "count": 5,
+      "prev": 0
+    },
+    {
+      "name": "API",
+      "count": 5,
+      "prev": 0
+    },
+    {
+      "name": "Docker",
+      "count": 4,
+      "prev": 0
+    },
+    {
+      "name": "Machine Learning",
+      "count": 4,
+      "prev": 0
+    },
+    {
+      "name": "Java",
+      "count": 4,
+      "prev": 0
+    },
+    {
+      "name": "JavaScript",
+      "count": 4,
+      "prev": 0
+    },
+    {
+      "name": "Windows Server",
+      "count": 3,
+      "prev": 0
+    },
+    {
+      "name": "Photoshop",
+      "count": 3,
+      "prev": 0
+    },
+    {
+      "name": "Android",
+      "count": 3,
+      "prev": 0
+    },
+    {
+      "name": "REST",
+      "count": 3,
+      "prev": 0
+    },
+    {
+      "name": "Jira",
+      "count": 2,
+      "prev": 0
+    },
+    {
+      "name": "Unity",
+      "count": 2,
+      "prev": 0
+    },
+    {
+      "name": "iOS",
+      "count": 2,
+      "prev": 0
+    },
+    {
+      "name": "C#",
+      "count": 2,
+      "prev": 0
+    },
+    {
+      "name": "HTTP",
+      "count": 2,
+      "prev": 0
+    },
+    {
+      "name": "SAP",
+      "count": 2,
+      "prev": 0
+    },
+    {
+      "name": "Ansible",
+      "count": 2,
+      "prev": 0
+    },
+    {
+      "name": "Grafana",
+      "count": 2,
+      "prev": 0
+    },
+    {
+      "name": "MySQL",
+      "count": 2,
+      "prev": 0
+    },
+    {
+      "name": "PostgreSQL",
+      "count": 2,
+      "prev": 0
+    },
+    {
+      "name": "Prometheus",
+      "count": 2,
+      "prev": 0
+    },
+    {
+      "name": "AWS",
+      "count": 2,
+      "prev": 0
+    },
+    {
+      "name": "CI/CD",
+      "count": 2,
+      "prev": 0
+    },
+    {
+      "name": "GCP",
+      "count": 2,
+      "prev": 0
+    },
+    {
+      "name": "Kubernetes",
+      "count": 2,
+      "prev": 0
+    },
+    {
+      "name": "Node.js",
+      "count": 2,
+      "prev": 0
+    }
+  ],
+  "topCompanies": [
+    [
+      "@jobforjunior",
+      13
+    ],
+    [
+      "Брайт Эйдженси",
+      5
+    ],
+    [
+      "Team.Inno / Фабрика инноваций и решений",
+      3
+    ],
+    [
+      "Туссон",
+      2
+    ],
+    [
+      "@team_inno_jobs",
+      2
+    ],
+    [
+      "@forallqa",
+      2
+    ],
+    [
+      "Andersen",
+      1
+    ],
+    [
+      "СтаркГеймз",
+      1
+    ],
+    [
+      "Игро Тэк",
+      1
+    ],
+    [
+      "Глушкова Ксения Евгеньевна",
+      1
+    ],
+    [
+      "Доктор Сервер",
+      1
+    ],
+    [
+      "Кэтлоджик",
+      1
+    ]
+  ],
+  "formats": [
+    [
+      "ON_SITE",
+      32
+    ],
+    [
+      "REMOTE",
+      10
+    ],
+    [
+      "HYBRID",
+      7
+    ],
+    [
+      "FIELD_WORK",
+      1
+    ]
+  ],
+  "experienceDist": [
+    [
+      "без опыта",
+      23
+    ],
+    [
+      "1–3 года",
+      6
+    ]
+  ],
+  "topVacancies": [
+    {
+      "id": "139437936",
+      "name": "Менеджер проектов в направлении кибербезопасности (intern)",
+      "company": "Брайт Эйдженси",
+      "area": "Витебск",
+      "salary": "1 000–4 400 BYN",
+      "salaryMid": 2700,
+      "url": "https://rabota.by/vacancy/139437936",
+      "skills": [],
+      "formats": [
+        "ON_SITE",
+        "HYBRID"
+      ],
+      "experience": "between1And3",
+      "publishedAt": "2026-11-24T07:08:39.126+03:00"
+    },
+    {
+      "id": "139911489",
+      "name": "Специалист технической поддержки/Technical Support Engineer L2",
+      "company": "Туссон",
+      "area": "Минск",
+      "salary": "от 2 500 BYN",
+      "salaryMid": 2500,
+      "url": "https://rabota.by/vacancy/139911489",
+      "skills": [
+        "Linux"
+      ],
+      "formats": [
+        "ON_SITE"
+      ],
+      "experience": "noExperience",
+      "publishedAt": "2026-11-27T11:51:53.873+03:00"
+    },
+    {
+      "id": "139911525",
+      "name": "QA Engineer/Тестировщик",
+      "company": "Туссон",
+      "area": "Минск",
+      "salary": "от 2 500 BYN",
+      "salaryMid": 2500,
+      "url": "https://rabota.by/vacancy/139911525",
+      "skills": [
+        "API",
+        "Linux",
+        "QA"
+      ],
+      "formats": [
+        "ON_SITE"
+      ],
+      "experience": "noExperience",
+      "publishedAt": "2026-11-27T11:52:23.791+03:00"
+    },
+    {
+      "id": "139867062",
+      "name": "Системный администратор",
+      "company": "ГУ РНПЦ травматологии и ортопедии",
+      "area": "Сеница",
+      "salary": "2 200–2 500 BYN",
+      "salaryMid": 2350,
+      "url": "https://rabota.by/vacancy/139867062",
+      "skills": [
+        "1С",
+        "TCP/IP",
+        "Windows Server"
+      ],
+      "formats": [
+        "ON_SITE"
+      ],
+      "experience": "noExperience",
+      "publishedAt": "2026-11-26T08:34:08.684+03:00"
+    },
+    {
+      "id": "139208770",
+      "name": "Системный администратор",
+      "company": "Доктор Сервер",
+      "area": "Минск",
+      "salary": "от 2 150 BYN",
+      "salaryMid": 2150,
+      "url": "https://rabota.by/vacancy/139208770",
+      "skills": [],
+      "formats": [
+        "FIELD_WORK"
+      ],
+      "experience": "noExperience",
+      "publishedAt": "2026-11-27T14:26:59.327+03:00"
+    },
+    {
+      "id": "139838522",
+      "name": "Специалист технической поддержки",
+      "company": "Навитеч",
+      "area": "Минск",
+      "salary": "1 500–2 500 BYN",
+      "salaryMid": 2000,
+      "url": "https://rabota.by/vacancy/139838522",
+      "skills": [],
+      "formats": [
+        "ON_SITE"
+      ],
+      "experience": "noExperience",
+      "publishedAt": "2026-11-25T12:47:25.524+03:00"
+    },
+    {
+      "id": "139843195",
+      "name": "Инженер-программист",
+      "company": "Средняя школа № 207 г.Минска имени Героя Беларуси Митрополита Филарета",
+      "area": "Минск",
+      "salary": "1 700–1 800 BYN",
+      "salaryMid": 1750,
+      "url": "https://rabota.by/vacancy/139843195",
+      "skills": [],
+      "formats": [
+        "ON_SITE"
+      ],
+      "experience": "noExperience",
+      "publishedAt": "2026-11-25T13:19:27.160+03:00"
+    },
+    {
+      "id": "133665374",
+      "name": "Full Stack Test Engineer Trainee",
+      "company": "Andersen",
+      "area": "Минск",
+      "salary": "до 1 550 BYN",
+      "salaryMid": 1550,
+      "url": "https://rabota.by/vacancy/133665374",
+      "skills": [
+        "QA",
+        "SQL"
+      ],
+      "formats": [
+        "ON_SITE",
+        "REMOTE"
+      ],
+      "experience": "noExperience",
+      "publishedAt": "2026-11-25T17:17:12.098+03:00"
+    },
+    {
+      "id": "137714449",
+      "name": "Младший системный администратор",
+      "company": "СтаркГеймз",
+      "area": "Минск",
+      "salary": "до 1 500 BYN",
+      "salaryMid": 1500,
+      "url": "https://rabota.by/vacancy/137714449",
+      "skills": [
+        "Bash",
+        "Git",
+        "Linux",
+        "PowerShell",
+        "Python",
+        "Windows Server"
+      ],
+      "formats": [
+        "ON_SITE"
+      ],
+      "experience": "noExperience",
+      "publishedAt": "2026-11-22T17:34:34.476+03:00"
+    },
+    {
+      "id": "139785450",
+      "name": "Специалист технической поддержки (HelpDesk/ServiceDesk)",
+      "company": "БайТехСервис",
+      "area": "Минск",
+      "salary": "1 300–1 500 BYN",
+      "salaryMid": 1400,
+      "url": "https://rabota.by/vacancy/139785450",
+      "skills": [
+        "Android",
+        "Excel",
+        "iOS"
+      ],
+      "formats": [
+        "ON_SITE"
+      ],
+      "experience": "noExperience",
+      "publishedAt": "2026-11-24T11:07:35.316+03:00"
+    },
+    {
+      "id": "139700691",
+      "name": "Специалист отдела технической поддержки (звонки)",
+      "company": "НьюАпекс",
+      "area": "Минск",
+      "salary": "от 1 200 BYN",
+      "salaryMid": 1200,
+      "url": "https://rabota.by/vacancy/139700691",
+      "skills": [],
+      "formats": [
+        "ON_SITE"
+      ],
+      "experience": "noExperience",
+      "publishedAt": "2026-11-20T15:23:22.222+03:00"
+    },
+    {
+      "id": "139404886",
+      "name": "Стажёр Project Manager в кибербезопасности (Программа развития менеджмента)",
+      "company": "Брайт Эйдженси",
+      "area": "Минск",
+      "salary": "от 1 000 BYN",
+      "salaryMid": 1000,
+      "url": "https://rabota.by/vacancy/139404886",
+      "skills": [
+        "Jira"
+      ],
+      "formats": [
+        "ON_SITE"
+      ],
+      "experience": "noExperience",
+      "publishedAt": "2026-11-27T07:00:15.569+03:00"
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Job Radar — статистика 2026-11-27</title>
+<style>
+  :root { --bg:#f5f7fb; --card:#fff; --ink:#1c2430; --muted:#68727f; --line:#e4e8ef; --accent:#3f6fe0; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.5 "Segoe UI", system-ui, -apple-system, sans-serif; }
+  .wrap { max-width:1120px; margin:0 auto; padding:28px 20px 60px; }
+  header h1 { margin:0 0 6px; font-size:28px; }
+  header p { margin:0; color:var(--muted); }
+  .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; margin:22px 0; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:16px; }
+  .card .num { font-size:30px; font-weight:700; line-height:1.1; }
+  .card .lbl { color:var(--muted); font-size:13px; margin-top:4px; }
+  section { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:20px; margin:16px 0; }
+  h2 { margin:0 0 14px; font-size:19px; }
+  h3 { margin:18px 0 8px; font-size:15px; color:var(--muted); font-weight:600; }
+  table { width:100%; border-collapse:collapse; }
+  th, td { padding:9px 8px; border-bottom:1px solid var(--line); text-align:left; }
+  th { font-size:13px; color:var(--muted); font-weight:600; }
+  td.num, th.num { text-align:right; }
+  tr:last-child td { border-bottom:0; }
+  .pill { display:inline-block; background:#eef2fb; border-radius:999px; padding:5px 11px; margin:3px 6px 3px 0; font-size:13px; }
+  .bar { height:8px; background:#edf1f7; border-radius:999px; overflow:hidden; flex:1; }
+  .bar span { display:block; height:100%; border-radius:999px; }
+  .skill { margin:10px 0; }
+  .skill-head { display:flex; justify-content:space-between; font-size:14px; margin-bottom:4px; }
+  .day { display:grid; grid-template-columns:110px 1fr 34px 74px; align-items:center; gap:10px; margin:7px 0; font-size:13px; }
+  .day-date { color:var(--muted); }
+  .day-entry { color:var(--muted); text-align:right; }
+  .src-row { display:grid; grid-template-columns:120px 1fr 40px; align-items:center; gap:10px; margin:8px 0; }
+  .muted { color:var(--muted); }
+  ul { margin:0; padding-left:20px; }
+  li { margin:7px 0; }
+  a { color:var(--accent); text-decoration:none; }
+  a:hover { text-decoration:underline; }
+  .note { color:var(--muted); font-size:13px; margin-top:10px; }
+  .files { display:flex; gap:10px; flex-wrap:wrap; margin-top:8px; }
+  .files a { background:#eef2fb; padding:8px 12px; border-radius:9px; font-size:14px; }
+  .reco-answer { background:linear-gradient(135deg,#eef4ff,#f7f9ff); border:1px solid #d7e2fb; border-radius:14px; padding:18px; }
+  .reco-label { color:var(--muted); font-size:13px; text-transform:uppercase; letter-spacing:.04em; }
+  .reco-main { font-size:30px; font-weight:700; margin:4px 0; }
+  .reco-sub { color:var(--muted); }
+  .reco-note { margin:10px 0; }
+  .reco-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:12px; margin:16px 0; }
+  .reco-card { border:1px solid var(--line); border-radius:12px; padding:14px; background:#fbfcfe; }
+  .reco-card.best { border-color:#9db9f5; background:#f4f8ff; }
+  .reco-place { font-size:12px; color:var(--muted); text-transform:uppercase; letter-spacing:.04em; }
+  .reco-track { font-weight:700; font-size:17px; margin-top:2px; }
+  .reco-roles { color:var(--muted); font-size:13px; }
+  .reco-score { margin:8px 0 4px; font-size:20px; }
+  .reco-score span { color:var(--muted); font-size:13px; }
+  .reco-bar { height:7px; background:#e6ecf7; border-radius:999px; overflow:hidden; margin-bottom:10px; }
+  .reco-bar span { display:block; height:100%; background:#3f6fe0; }
+  .reco-reasons { display:flex; flex-direction:column; gap:2px; font-size:12.5px; color:var(--muted); margin-bottom:8px; }
+  .reco-plan { margin:0; padding-left:22px; }
+  .reco-plan li { margin:8px 0; }
+  .reco-vacancies { margin-top:0; }
+  .warn { background:#fff7e6; border:1px solid #f3d19b; color:#7a5200; border-radius:12px; padding:12px 14px; margin:14px 0; font-size:14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Job Radar — статистика</h1>
+    <p>Окно: 2026-11-21 — 2026-11-27 · обновлено 27.11.2026, 22:33:46 · источники: rabota.by, Telegram, LinkedIn · последний сбор: 27.11.2026, 22:33:34</p>
+  </header>
+
+  
+
+  <div class="cards">
+    <div class="card"><div class="num">305</div><div class="lbl">вакансий в базе</div></div>
+    <div class="card"><div class="num">305</div><div class="lbl">новых за 7 дн.</div></div>
+    <div class="card"><div class="num">46</div><div class="lbl">entry-level</div></div>
+    <div class="card"><div class="num">23</div><div class="lbl">строго «без опыта»</div></div>
+    <div class="card"><div class="num">22%</div><div class="lbl">удалёнка (10)</div></div>
+    <div class="card"><div class="num">26%</div><div class="lbl">с вилкой (12)</div></div>
+  </div>
+
+  <section class="reco">
+    <h2>Итог: что выбрать</h2>
+    <div class="reco-answer">
+      <div>
+        <div class="reco-label">Рекомендуемое направление</div>
+        <div class="reco-main">QA / Тестирование</div>
+        <div class="reco-sub">Специальность: <b>Manual QA Engineer / Тестировщик</b> · оценка 66.2/100</div>
+        <p class="reco-note">Самый быстрый и дешёвый вход: старт с ручного тестирования, без программирования.</p>
+        <div class="reco-skills"><span class="pill">QA</span><span class="pill">тест-кейсы</span><span class="pill">чек-листы</span><span class="pill">Jira</span><span class="pill">SQL</span><span class="pill">Postman</span></div>
+      </div>
+    </div>
+    <div class="reco-grid"><div class="reco-card best">
+        <div class="reco-place">1 место</div>
+        <div class="reco-track">QA / Тестирование</div>
+        <div class="reco-roles">Manual QA Engineer / Тестировщик</div>
+        <div class="reco-score"><b>66.2</b><span>/100</span></div>
+        <div class="reco-bar"><span style="width:66.2%"></span></div>
+        <div class="reco-reasons"><span>7 entry-level вакансий за 14 дн.</span><span>3 строго «без опыта»</span><span>удалёнка в 14%</span><span>медиана 2 025 BYN (n=2)</span><span>типичный срок входа: 3–6 месяцев</span></div>
+        <div class="reco-skills"><span class="pill">QA</span><span class="pill">тест-кейсы</span><span class="pill">чек-листы</span><span class="pill">Jira</span><span class="pill">SQL</span></div>
+      </div><div class="reco-card">
+        <div class="reco-place">2 место</div>
+        <div class="reco-track">Аналитика</div>
+        <div class="reco-roles">Бизнес-аналитик / Системный аналитик</div>
+        <div class="reco-score"><b>60.6</b><span>/100</span></div>
+        <div class="reco-bar"><span style="width:60.6%"></span></div>
+        <div class="reco-reasons"><span>8 entry-level вакансий за 14 дн.</span><span>5 строго «без опыта»</span><span>удалёнка в 25%</span><span>медиана 1 850 BYN (n=2)</span><span>типичный срок входа: 6–9 месяцев</span></div>
+        <div class="reco-skills"><span class="pill">SQL</span><span class="pill">Excel</span><span class="pill">BPMN/UML</span><span class="pill">Jira</span><span class="pill">Power BI</span></div>
+      </div><div class="reco-card">
+        <div class="reco-place">3 место</div>
+        <div class="reco-track">Администрирование</div>
+        <div class="reco-roles">Системный администратор / Junior Sysadmin</div>
+        <div class="reco-score"><b>58.3</b><span>/100</span></div>
+        <div class="reco-bar"><span style="width:58.3%"></span></div>
+        <div class="reco-reasons"><span>3 entry-level вакансий за 14 дн.</span><span>3 строго «без опыта»</span><span>удалёнка в 0%</span><span>медиана 2 150 BYN (n=3)</span><span>типичный срок входа: 6–9 месяцев</span></div>
+        <div class="reco-skills"><span class="pill">Linux</span><span class="pill">Windows Server</span><span class="pill">TCP/IP</span><span class="pill">Bash</span><span class="pill">Active Directory</span></div>
+      </div></div>
+    <h3>План на 4 недели</h3>
+    <ol class="reco-plan"><li>Неделя 1 — база: QA, тест-кейсы, чек-листы. 1–2 небольших практических кейса.</li><li>Неделя 2 — практика: Jira, SQL. Собрать мини-портфолио.</li><li>Неделя 3 — упаковка: резюме под «Manual QA Engineer / Тестировщик», 10 целевых откликов, разбор фидбека.</li><li>Неделя 4 — выход на рынок: ещё 20 откликов, 2–3 собеседования, корректировка резюме по отказам.</li></ol>
+    <h3>Куда откликаться сейчас</h3><ul class="reco-vacancies"><li><a href="https://rabota.by/vacancy/133665374" target="_blank" rel="noreferrer">Full Stack Test Engineer Trainee</a> <span class="muted">— Andersen · Минск · до 1 550 BYN</span></li><li><a href="https://rabota.by/vacancy/139911525" target="_blank" rel="noreferrer">QA Engineer/Тестировщик</a> <span class="muted">— Туссон · Минск · от 2 500 BYN</span></li><li><a href="https://rabota.by/vacancy/138777016" target="_blank" rel="noreferrer">QA Engineer</a> <span class="muted">— Игро Тэк · Минск · з/п не указана</span></li></ul>
+    <p class="note">Оценка построена на вакансиях за окно наблюдения; при малой выборке это ориентир, а не гарантия.</p>
+  </section>
+
+  <section>
+    <h2>По источникам</h2>
+    <span class="pill"><b>rabota.by</b> 271</span><span class="pill"><b>Telegram</b> 34</span>
+    <div style="margin-top:14px"><div class="src-row"><span>rabota.by</span><div class="bar"><span style="width:100%;background:#34a853"></span></div><b>271</b></div><div class="src-row"><span>Telegram</span><div class="bar"><span style="width:13%;background:#34a853"></span></div><b>34</b></div></div>
+  </section>
+
+  <section>
+    <h2>Направления (entry-level)</h2>
+    <table>
+      <thead><tr><th>Направление</th><th class="num">Новых</th><th class="num">Без опыта</th><th class="num">Медиана, BYN</th><th class="num">p25–p75</th></tr></thead>
+      <tbody><tr>
+        <td>Backend / Python</td>
+        <td class="num">1</td>
+        <td class="num">0</td>
+        <td class="num">—</td>
+        <td class="num">—</td>
+      </tr><tr>
+        <td>Frontend / JS</td>
+        <td class="num">1</td>
+        <td class="num">1</td>
+        <td class="num">—</td>
+        <td class="num">—</td>
+      </tr><tr>
+        <td>Backend / Java</td>
+        <td class="num">1</td>
+        <td class="num">0</td>
+        <td class="num">—</td>
+        <td class="num">—</td>
+      </tr><tr>
+        <td>QA / Тестирование</td>
+        <td class="num">7</td>
+        <td class="num">3</td>
+        <td class="num">2 025</td>
+        <td class="num">1 550–2 500</td>
+      </tr><tr>
+        <td>Аналитика</td>
+        <td class="num">1</td>
+        <td class="num">1</td>
+        <td class="num">—</td>
+        <td class="num">—</td>
+      </tr><tr>
+        <td>Администрирование</td>
+        <td class="num">3</td>
+        <td class="num">3</td>
+        <td class="num">2 150</td>
+        <td class="num">2 150–2 350</td>
+      </tr><tr>
+        <td>Поддержка / Helpdesk</td>
+        <td class="num">5</td>
+        <td class="num">5</td>
+        <td class="num">1 700</td>
+        <td class="num">1 400–2 000</td>
+      </tr><tr>
+        <td>DevOps / Cloud</td>
+        <td class="num">2</td>
+        <td class="num">1</td>
+        <td class="num">—</td>
+        <td class="num">—</td>
+      </tr><tr>
+        <td>UI/UX дизайн</td>
+        <td class="num">2</td>
+        <td class="num">1</td>
+        <td class="num">—</td>
+        <td class="num">—</td>
+      </tr><tr>
+        <td>Backend / другое</td>
+        <td class="num">2</td>
+        <td class="num">2</td>
+        <td class="num">1 750</td>
+        <td class="num">1 750–1 750</td>
+      </tr><tr>
+        <td>Стажировки</td>
+        <td class="num">7</td>
+        <td class="num">4</td>
+        <td class="num">1 850</td>
+        <td class="num">1 000–2 700</td>
+      </tr><tr>
+        <td>Junior</td>
+        <td class="num">10</td>
+        <td class="num">1</td>
+        <td class="num">—</td>
+        <td class="num">—</td>
+      </tr><tr>
+        <td>Разработка (общее)</td>
+        <td class="num">2</td>
+        <td class="num">1</td>
+        <td class="num">—</td>
+        <td class="num">—</td>
+      </tr><tr>
+        <td>Telegram / чаты</td>
+        <td class="num">2</td>
+        <td class="num">0</td>
+        <td class="num">—</td>
+        <td class="num">—</td>
+      </tr></tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Динамика по дням</h2>
+    <div class="day"><span class="day-date">2026-11-20</span><div class="bar"><span style="width:8%;background:#8fb3ff"></span></div><b>19</b><span class="day-entry">entry 6</span></div><div class="day"><span class="day-date">2026-11-21</span><div class="bar"><span style="width:2%;background:#8fb3ff"></span></div><b>1</b><span class="day-entry">entry 0</span></div><div class="day"><span class="day-date">2026-11-22</span><div class="bar"><span style="width:2%;background:#8fb3ff"></span></div><b>1</b><span class="day-entry">entry 1</span></div><div class="day"><span class="day-date">2026-11-23</span><div class="bar"><span style="width:8%;background:#8fb3ff"></span></div><b>19</b><span class="day-entry">entry 3</span></div><div class="day"><span class="day-date">2026-11-24</span><div class="bar"><span style="width:13%;background:#8fb3ff"></span></div><b>31</b><span class="day-entry">entry 6</span></div><div class="day"><span class="day-date">2026-11-25</span><div class="bar"><span style="width:27%;background:#8fb3ff"></span></div><b>63</b><span class="day-entry">entry 12</span></div><div class="day"><span class="day-date">2026-11-26</span><div class="bar"><span style="width:100%;background:#8fb3ff"></span></div><b>232</b><span class="day-entry">entry 25</span></div><div class="day"><span class="day-date">2026-11-27</span><div class="bar"><span style="width:31%;background:#8fb3ff"></span></div><b>73</b><span class="day-entry">entry 21</span></div>
+    <p class="note">Светлая полоса — все новые IT-вакансии за день, справа — сколько из них entry-level.</p>
+  </section>
+
+  <section>
+    <h2>Топ технологий (entry-level)</h2>
+    <div class="skill"><div class="skill-head"><span>Git</span><b>7</b></div><div class="bar"><span style="width:100%;background:#5b8def"></span></div></div><div class="skill"><div class="skill-head"><span>QA</span><b>6</b></div><div class="bar"><span style="width:86%;background:#5b8def"></span></div></div><div class="skill"><div class="skill-head"><span>Linux</span><b>6</b></div><div class="bar"><span style="width:86%;background:#5b8def"></span></div></div><div class="skill"><div class="skill-head"><span>Python</span><b>6</b></div><div class="bar"><span style="width:86%;background:#5b8def"></span></div></div><div class="skill"><div class="skill-head"><span>SQL</span><b>5</b></div><div class="bar"><span style="width:71%;background:#5b8def"></span></div></div><div class="skill"><div class="skill-head"><span>API</span><b>5</b></div><div class="bar"><span style="width:71%;background:#5b8def"></span></div></div><div class="skill"><div class="skill-head"><span>Docker</span><b>4</b></div><div class="bar"><span style="width:57%;background:#5b8def"></span></div></div><div class="skill"><div class="skill-head"><span>Machine Learning</span><b>4</b></div><div class="bar"><span style="width:57%;background:#5b8def"></span></div></div><div class="skill"><div class="skill-head"><span>Java</span><b>4</b></div><div class="bar"><span style="width:57%;background:#5b8def"></span></div></div><div class="skill"><div class="skill-head"><span>JavaScript</span><b>4</b></div><div class="bar"><span style="width:57%;background:#5b8def"></span></div></div><div class="skill"><div class="skill-head"><span>Windows Server</span><b>3</b></div><div class="bar"><span style="width:43%;background:#5b8def"></span></div></div><div class="skill"><div class="skill-head"><span>Photoshop</span><b>3</b></div><div class="bar"><span style="width:43%;background:#5b8def"></span></div></div><div class="skill"><div class="skill-head"><span>Android</span><b>3</b></div><div class="bar"><span style="width:43%;background:#5b8def"></span></div></div><div class="skill"><div class="skill-head"><span>REST</span><b>3</b></div><div class="bar"><span style="width:43%;background:#5b8def"></span></div></div><div class="skill"><div class="skill-head"><span>Jira</span><b>2</b></div><div class="bar"><span style="width:29%;background:#5b8def"></span></div></div><div class="skill"><div class="skill-head"><span>Unity</span><b>2</b></div><div class="bar"><span style="width:29%;background:#5b8def"></span></div></div><div class="skill"><div class="skill-head"><span>iOS</span><b>2</b></div><div class="bar"><span style="width:29%;background:#5b8def"></span></div></div><div class="skill"><div class="skill-head"><span>C#</span><b>2</b></div><div class="bar"><span style="width:29%;background:#5b8def"></span></div></div><div class="skill"><div class="skill-head"><span>HTTP</span><b>2</b></div><div class="bar"><span style="width:29%;background:#5b8def"></span></div></div><div class="skill"><div class="skill-head"><span>SAP</span><b>2</b></div><div class="bar"><span style="width:29%;background:#5b8def"></span></div></div>
+  </section>
+
+  <section>
+    <h2>Формат работы и опыт</h2>
+    <h3>Формат</h3>
+    <div><span class="pill">офис · 31</span><span class="pill">удалённо · 8</span><span class="pill">гибрид · 2</span><span class="pill">разъездная · 1</span></div>
+    <h3>Опыт</h3>
+    <div><span class="pill">без опыта · 23</span><span class="pill">1–3 года · 6</span></div>
+  </section>
+
+  <section>
+    <h2>Топ вакансий по вилке</h2>
+    <ul><li><a href="https://rabota.by/vacancy/139437936" target="_blank" rel="noreferrer">Менеджер проектов в направлении кибербезопасности (intern)</a>
+        <span class="muted">— Брайт Эйдженси · Витебск · 1 000–4 400 BYN · офис / гибрид</span></li><li><a href="https://rabota.by/vacancy/139911489" target="_blank" rel="noreferrer">Специалист технической поддержки/Technical Support Engineer L2</a>
+        <span class="muted">— Туссон · Минск · от 2 500 BYN · офис</span></li><li><a href="https://rabota.by/vacancy/139911525" target="_blank" rel="noreferrer">QA Engineer/Тестировщик</a>
+        <span class="muted">— Туссон · Минск · от 2 500 BYN · офис</span></li><li><a href="https://rabota.by/vacancy/139867062" target="_blank" rel="noreferrer">Системный администратор</a>
+        <span class="muted">— ГУ РНПЦ травматологии и ортопедии · Сеница · 2 200–2 500 BYN · офис</span></li><li><a href="https://rabota.by/vacancy/139208770" target="_blank" rel="noreferrer">Системный администратор</a>
+        <span class="muted">— Доктор Сервер · Минск · от 2 150 BYN · разъездная</span></li><li><a href="https://rabota.by/vacancy/139838522" target="_blank" rel="noreferrer">Специалист технической поддержки</a>
+        <span class="muted">— Навитеч · Минск · 1 500–2 500 BYN · офис</span></li><li><a href="https://rabota.by/vacancy/139843195" target="_blank" rel="noreferrer">Инженер-программист</a>
+        <span class="muted">— Средняя школа № 207 г.Минска имени Героя Беларуси Митрополита Филарета · Минск · 1 700–1 800 BYN · офис</span></li><li><a href="https://rabota.by/vacancy/133665374" target="_blank" rel="noreferrer">Full Stack Test Engineer Trainee</a>
+        <span class="muted">— Andersen · Минск · до 1 550 BYN · офис / удалённо</span></li><li><a href="https://rabota.by/vacancy/137714449" target="_blank" rel="noreferrer">Младший системный администратор</a>
+        <span class="muted">— СтаркГеймз · Минск · до 1 500 BYN · офис</span></li><li><a href="https://rabota.by/vacancy/139785450" target="_blank" rel="noreferrer">Специалист технической поддержки (HelpDesk/ServiceDesk)</a>
+        <span class="muted">— БайТехСервис · Минск · 1 300–1 500 BYN · офис</span></li><li><a href="https://rabota.by/vacancy/139700691" target="_blank" rel="noreferrer">Специалист отдела технической поддержки (звонки)</a>
+        <span class="muted">— НьюАпекс · Минск · от 1 200 BYN · офис</span></li><li><a href="https://rabota.by/vacancy/139404886" target="_blank" rel="noreferrer">Стажёр Project Manager в кибербезопасности (Программа развития менеджмента)</a>
+        <span class="muted">— Брайт Эйдженси · Минск · от 1 000 BYN · офис</span></li></ul>
+  </section>
+
+  <section>
+    <h2>Файлы</h2>
+    <p class="muted">Эти файлы обновляются автоматически при каждом сборе.</p>
+    <div class="files">
+      <a href="vacancies.csv">vacancies.csv — все вакансии для Excel</a>
+      <a href="stats.csv">stats.csv — статистика по дням</a>
+      <a href="stats.json">stats.json — сводка в JSON</a>
+    </div>
+  </section>
+</div>
+</body>
+</html>

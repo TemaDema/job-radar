@@ -1,0 +1,51 @@
+name: Job Radar
+
+# Запускается в облаке GitHub, поэтому ПК может быть выключен.
+# Время указано в UTC; Минск = UTC+3 круглый год.
+#   05:30 UTC = 08:30 Минск — ежедневный сбор
+#   06:00 UTC = 09:00 Минск по понедельникам — недельная статистика
+
+on:
+  schedule:
+    - cron: "30 5 * * *"
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: job-radar
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Collect vacancies
+        run: node job-radar/scripts/fetch.mjs
+
+      - name: Weekly stats (Mondays)
+        if: github.event.schedule == '0 6 * * 1'
+        run: node job-radar/scripts/weekly-stats.mjs
+
+      - name: Commit results
+        run: |
+          git config user.name "job-radar-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add job-radar/data job-radar/reports
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "job-radar: $(date -u +%F)"
+            git pull --rebase origin main
+            git push
+          fi

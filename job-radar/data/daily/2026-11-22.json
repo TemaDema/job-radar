@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-22",
+  "restored": true,
+  "generatedAt": "2026-11-27T19:33:33.989Z",
+  "newTotal": 1,
+  "newEntry": 1,
+  "bySource": {
+    "rabota.by": 1
+  },
+  "topSkills": {
+    "Bash": 1,
+    "Git": 1,
+    "Linux": 1,
+    "PowerShell": 1,
+    "Python": 1,
+    "Windows Server": 1
+  },
+  "note": "restored from publication date after a missed run"
+}

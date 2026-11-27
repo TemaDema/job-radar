@@ -1,0 +1,787 @@
+{
+  "generatedAt": "2026-11-27T19:33:46.517Z",
+  "window": {
+    "start": "2026-11-14",
+    "end": "2026-11-27",
+    "days": 14
+  },
+  "sample": 305,
+  "top": {
+    "track": "QA / Тестирование",
+    "score": 66.2,
+    "roles": "Manual QA Engineer / Тестировщик",
+    "note": "Самый быстрый и дешёвый вход: старт с ручного тестирования, без программирования.",
+    "speedLabel": "3–6 месяцев",
+    "category": "qa",
+    "entry": 7,
+    "strict": 3,
+    "total": 33,
+    "remote": 1,
+    "remotePct": 14,
+    "withSalary": 2,
+    "salaryMedian": 2025,
+    "salaryP25": 1550,
+    "salaryP75": 2500,
+    "learnSkills": [
+      "QA",
+      "тест-кейсы",
+      "чек-листы",
+      "Jira",
+      "SQL",
+      "Postman"
+    ],
+    "reasons": [
+      "7 entry-level вакансий за 14 дн.",
+      "3 строго «без опыта»",
+      "удалёнка в 14%",
+      "медиана 2 025 BYN (n=2)",
+      "типичный срок входа: 3–6 месяцев"
+    ],
+    "vacancies": [
+      {
+        "name": "Full Stack Test Engineer Trainee",
+        "company": "Andersen",
+        "area": "Минск",
+        "salary": "до 1 550 BYN",
+        "formats": "офис / удалённо",
+        "url": "https://rabota.by/vacancy/133665374",
+        "experience": "без опыта"
+      },
+      {
+        "name": "QA Engineer/Тестировщик",
+        "company": "Туссон",
+        "area": "Минск",
+        "salary": "от 2 500 BYN",
+        "formats": "офис",
+        "url": "https://rabota.by/vacancy/139911525",
+        "experience": "без опыта"
+      },
+      {
+        "name": "QA Engineer",
+        "company": "Игро Тэк",
+        "area": "Минск",
+        "salary": "з/п не указана",
+        "formats": "офис",
+        "url": "https://rabota.by/vacancy/138777016",
+        "experience": "без опыта"
+      }
+    ]
+  },
+  "second": {
+    "track": "Аналитика",
+    "score": 60.6,
+    "roles": "Бизнес-аналитик / Системный аналитик",
+    "note": "Хороший вход для тех, кто любит данные и процессы; нужны SQL, Excel, BPMN.",
+    "speedLabel": "6–9 месяцев",
+    "category": "analytics",
+    "entry": 8,
+    "strict": 5,
+    "total": 44,
+    "remote": 2,
+    "remotePct": 25,
+    "withSalary": 2,
+    "salaryMedian": 1850,
+    "salaryP25": 1000,
+    "salaryP75": 2700,
+    "learnSkills": [
+      "SQL",
+      "Excel",
+      "BPMN/UML",
+      "Jira",
+      "Power BI",
+      "Machine Learning"
+    ],
+    "reasons": [
+      "8 entry-level вакансий за 14 дн.",
+      "5 строго «без опыта»",
+      "удалёнка в 25%",
+      "медиана 1 850 BYN (n=2)",
+      "типичный срок входа: 6–9 месяцев"
+    ],
+    "vacancies": [
+      {
+        "name": "Junior Project Manager",
+        "company": "Syberry CIS",
+        "area": "Минск",
+        "salary": "з/п не указана",
+        "formats": "удалённо / гибрид",
+        "url": "https://rabota.by/vacancy/139673912",
+        "experience": "без опыта"
+      },
+      {
+        "name": "Business Analyst (Odoo ERP)",
+        "company": "СМД-БАЙ ГРУПП",
+        "area": "Минск",
+        "salary": "з/п не указана",
+        "formats": "удалённо",
+        "url": "https://rabota.by/vacancy/139860675",
+        "experience": "без опыта"
+      },
+      {
+        "name": "Стажёр Project Manager в кибербезопасности (Программа развития менеджмента)",
+        "company": "Брайт Эйдженси",
+        "area": "Минск",
+        "salary": "от 1 000 BYN",
+        "formats": "офис",
+        "url": "https://rabota.by/vacancy/139404886",
+        "experience": "без опыта"
+      }
+    ]
+  },
+  "third": {
+    "track": "Администрирование",
+    "score": 58.3,
+    "roles": "Системный администратор / Junior Sysadmin",
+    "note": "Стабильный вход, но меньше удалёнки и медленный рост зарплаты.",
+    "speedLabel": "6–9 месяцев",
+    "category": "infra",
+    "entry": 3,
+    "strict": 3,
+    "total": 52,
+    "remote": 0,
+    "remotePct": 0,
+    "withSalary": 3,
+    "salaryMedian": 2150,
+    "salaryP25": 2150,
+    "salaryP75": 2350,
+    "learnSkills": [
+      "Linux",
+      "Windows Server",
+      "TCP/IP",
+      "Bash",
+      "Active Directory",
+      "Git"
+    ],
+    "reasons": [
+      "3 entry-level вакансий за 14 дн.",
+      "3 строго «без опыта»",
+      "удалёнка в 0%",
+      "медиана 2 150 BYN (n=3)",
+      "типичный срок входа: 6–9 месяцев"
+    ],
+    "vacancies": [
+      {
+        "name": "Системный администратор",
+        "company": "Доктор Сервер",
+        "area": "Минск",
+        "salary": "от 2 150 BYN",
+        "formats": "разъездная",
+        "url": "https://rabota.by/vacancy/139208770",
+        "experience": "без опыта"
+      },
+      {
+        "name": "Системный администратор",
+        "company": "ГУ РНПЦ травматологии и ортопедии",
+        "area": "Сеница",
+        "salary": "2 200–2 500 BYN",
+        "formats": "офис",
+        "url": "https://rabota.by/vacancy/139867062",
+        "experience": "без опыта"
+      },
+      {
+        "name": "Младший системный администратор",
+        "company": "СтаркГеймз",
+        "area": "Минск",
+        "salary": "до 1 500 BYN",
+        "formats": "офис",
+        "url": "https://rabota.by/vacancy/137714449",
+        "experience": "без опыта"
+      }
+    ]
+  },
+  "ranked": [
+    {
+      "track": "QA / Тестирование",
+      "score": 66.2,
+      "roles": "Manual QA Engineer / Тестировщик",
+      "note": "Самый быстрый и дешёвый вход: старт с ручного тестирования, без программирования.",
+      "speedLabel": "3–6 месяцев",
+      "category": "qa",
+      "entry": 7,
+      "strict": 3,
+      "total": 33,
+      "remote": 1,
+      "remotePct": 14,
+      "withSalary": 2,
+      "salaryMedian": 2025,
+      "salaryP25": 1550,
+      "salaryP75": 2500,
+      "learnSkills": [
+        "QA",
+        "тест-кейсы",
+        "чек-листы",
+        "Jira",
+        "SQL",
+        "Postman"
+      ],
+      "reasons": [
+        "7 entry-level вакансий за 14 дн.",
+        "3 строго «без опыта»",
+        "удалёнка в 14%",
+        "медиана 2 025 BYN (n=2)",
+        "типичный срок входа: 3–6 месяцев"
+      ],
+      "vacancies": [
+        {
+          "name": "Full Stack Test Engineer Trainee",
+          "company": "Andersen",
+          "area": "Минск",
+          "salary": "до 1 550 BYN",
+          "formats": "офис / удалённо",
+          "url": "https://rabota.by/vacancy/133665374",
+          "experience": "без опыта"
+        },
+        {
+          "name": "QA Engineer/Тестировщик",
+          "company": "Туссон",
+          "area": "Минск",
+          "salary": "от 2 500 BYN",
+          "formats": "офис",
+          "url": "https://rabota.by/vacancy/139911525",
+          "experience": "без опыта"
+        },
+        {
+          "name": "QA Engineer",
+          "company": "Игро Тэк",
+          "area": "Минск",
+          "salary": "з/п не указана",
+          "formats": "офис",
+          "url": "https://rabota.by/vacancy/138777016",
+          "experience": "без опыта"
+        }
+      ]
+    },
+    {
+      "track": "Аналитика",
+      "score": 60.6,
+      "roles": "Бизнес-аналитик / Системный аналитик",
+      "note": "Хороший вход для тех, кто любит данные и процессы; нужны SQL, Excel, BPMN.",
+      "speedLabel": "6–9 месяцев",
+      "category": "analytics",
+      "entry": 8,
+      "strict": 5,
+      "total": 44,
+      "remote": 2,
+      "remotePct": 25,
+      "withSalary": 2,
+      "salaryMedian": 1850,
+      "salaryP25": 1000,
+      "salaryP75": 2700,
+      "learnSkills": [
+        "SQL",
+        "Excel",
+        "BPMN/UML",
+        "Jira",
+        "Power BI",
+        "Machine Learning"
+      ],
+      "reasons": [
+        "8 entry-level вакансий за 14 дн.",
+        "5 строго «без опыта»",
+        "удалёнка в 25%",
+        "медиана 1 850 BYN (n=2)",
+        "типичный срок входа: 6–9 месяцев"
+      ],
+      "vacancies": [
+        {
+          "name": "Junior Project Manager",
+          "company": "Syberry CIS",
+          "area": "Минск",
+          "salary": "з/п не указана",
+          "formats": "удалённо / гибрид",
+          "url": "https://rabota.by/vacancy/139673912",
+          "experience": "без опыта"
+        },
+        {
+          "name": "Business Analyst (Odoo ERP)",
+          "company": "СМД-БАЙ ГРУПП",
+          "area": "Минск",
+          "salary": "з/п не указана",
+          "formats": "удалённо",
+          "url": "https://rabota.by/vacancy/139860675",
+          "experience": "без опыта"
+        },
+        {
+          "name": "Стажёр Project Manager в кибербезопасности (Программа развития менеджмента)",
+          "company": "Брайт Эйдженси",
+          "area": "Минск",
+          "salary": "от 1 000 BYN",
+          "formats": "офис",
+          "url": "https://rabota.by/vacancy/139404886",
+          "experience": "без опыта"
+        }
+      ]
+    },
+    {
+      "track": "Администрирование",
+      "score": 58.3,
+      "roles": "Системный администратор / Junior Sysadmin",
+      "note": "Стабильный вход, но меньше удалёнки и медленный рост зарплаты.",
+      "speedLabel": "6–9 месяцев",
+      "category": "infra",
+      "entry": 3,
+      "strict": 3,
+      "total": 52,
+      "remote": 0,
+      "remotePct": 0,
+      "withSalary": 3,
+      "salaryMedian": 2150,
+      "salaryP25": 2150,
+      "salaryP75": 2350,
+      "learnSkills": [
+        "Linux",
+        "Windows Server",
+        "TCP/IP",
+        "Bash",
+        "Active Directory",
+        "Git"
+      ],
+      "reasons": [
+        "3 entry-level вакансий за 14 дн.",
+        "3 строго «без опыта»",
+        "удалёнка в 0%",
+        "медиана 2 150 BYN (n=3)",
+        "типичный срок входа: 6–9 месяцев"
+      ],
+      "vacancies": [
+        {
+          "name": "Системный администратор",
+          "company": "Доктор Сервер",
+          "area": "Минск",
+          "salary": "от 2 150 BYN",
+          "formats": "разъездная",
+          "url": "https://rabota.by/vacancy/139208770",
+          "experience": "без опыта"
+        },
+        {
+          "name": "Системный администратор",
+          "company": "ГУ РНПЦ травматологии и ортопедии",
+          "area": "Сеница",
+          "salary": "2 200–2 500 BYN",
+          "formats": "офис",
+          "url": "https://rabota.by/vacancy/139867062",
+          "experience": "без опыта"
+        },
+        {
+          "name": "Младший системный администратор",
+          "company": "СтаркГеймз",
+          "area": "Минск",
+          "salary": "до 1 500 BYN",
+          "formats": "офис",
+          "url": "https://rabota.by/vacancy/137714449",
+          "experience": "без опыта"
+        }
+      ]
+    },
+    {
+      "track": "Поддержка / Helpdesk",
+      "score": 56.8,
+      "roles": "Специалист технической поддержки / Helpdesk",
+      "note": "Самый быстрый старт в IT, но это трамплин: через 1–2 года уходить в QA, аналитику или администрирование.",
+      "speedLabel": "3–6 месяцев",
+      "category": "support",
+      "entry": 5,
+      "strict": 5,
+      "total": 21,
+      "remote": 0,
+      "remotePct": 0,
+      "withSalary": 4,
+      "salaryMedian": 1700,
+      "salaryP25": 1400,
+      "salaryP75": 2000,
+      "learnSkills": [
+        "Windows",
+        "Linux",
+        "1С",
+        "Jira",
+        "Английский A2",
+        "Android"
+      ],
+      "reasons": [
+        "5 entry-level вакансий за 14 дн.",
+        "5 строго «без опыта»",
+        "удалёнка в 0%",
+        "медиана 1 700 BYN (n=4)",
+        "типичный срок входа: 3–6 месяцев"
+      ],
+      "vacancies": [
+        {
+          "name": "Специалист технической поддержки/Technical Support Engineer L2",
+          "company": "Туссон",
+          "area": "Минск",
+          "salary": "от 2 500 BYN",
+          "formats": "офис",
+          "url": "https://rabota.by/vacancy/139911489",
+          "experience": "без опыта"
+        },
+        {
+          "name": "Специалист технической поддержки",
+          "company": "Навитеч",
+          "area": "Минск",
+          "salary": "1 500–2 500 BYN",
+          "formats": "офис",
+          "url": "https://rabota.by/vacancy/139838522",
+          "experience": "без опыта"
+        },
+        {
+          "name": "Специалист технической поддержки (HelpDesk/ServiceDesk)",
+          "company": "БайТехСервис",
+          "area": "Минск",
+          "salary": "1 300–1 500 BYN",
+          "formats": "офис",
+          "url": "https://rabota.by/vacancy/139785450",
+          "experience": "без опыта"
+        }
+      ]
+    },
+    {
+      "track": "Frontend / JS",
+      "score": 48.8,
+      "roles": "Junior Frontend Developer / Верстальщик",
+      "note": "Понятное портфолио и много junior-вакансий; английский желательно A2–B1.",
+      "speedLabel": "6–9 месяцев",
+      "category": "dev",
+      "entry": 5,
+      "strict": 2,
+      "total": 16,
+      "remote": 1,
+      "remotePct": 20,
+      "withSalary": 0,
+      "salaryMedian": null,
+      "salaryP25": null,
+      "salaryP75": null,
+      "learnSkills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Git",
+        "Python"
+      ],
+      "reasons": [
+        "5 entry-level вакансий за 14 дн.",
+        "2 строго «без опыта»",
+        "удалёнка в 20%",
+        "типичный срок входа: 6–9 месяцев"
+      ],
+      "vacancies": [
+        {
+          "name": "Стажер Forward Deployed Engineer (FDE) / AI-разработчик",
+          "company": "Т16",
+          "area": "Минск",
+          "salary": "з/п не указана",
+          "formats": "офис / гибрид",
+          "url": "https://rabota.by/vacancy/139854293",
+          "experience": "без опыта"
+        },
+        {
+          "name": "Дизайнер-верстальщик",
+          "company": "Евроторг",
+          "area": "Минск",
+          "salary": "з/п не указана",
+          "formats": "офис",
+          "url": "https://rabota.by/vacancy/139787033",
+          "experience": "без опыта"
+        },
+        {
+          "name": "Trainee SAP ABAP Developer",
+          "company": "Team.Inno / Фабрика инноваций и решений",
+          "area": "Минск",
+          "salary": "з/п не указана",
+          "formats": "удалённо",
+          "url": "https://rabota.by/vacancy/139704321",
+          "experience": "1–3 года"
+        }
+      ]
+    },
+    {
+      "track": "DevOps / Cloud",
+      "score": 48,
+      "roles": "Junior DevOps / Cloud Engineer",
+      "note": "Высокие зарплаты, но сначала нужен опыт администрирования Linux и сетей.",
+      "speedLabel": "12+ месяцев",
+      "category": "infra",
+      "entry": 2,
+      "strict": 1,
+      "total": 16,
+      "remote": 2,
+      "remotePct": 100,
+      "withSalary": 0,
+      "salaryMedian": null,
+      "salaryP25": null,
+      "salaryP75": null,
+      "learnSkills": [
+        "Linux",
+        "Docker",
+        "CI/CD",
+        "Git",
+        "Kubernetes",
+        "Machine Learning"
+      ],
+      "reasons": [
+        "2 entry-level вакансий за 14 дн.",
+        "1 строго «без опыта»",
+        "удалёнка в 100%",
+        "типичный срок входа: 12+ месяцев"
+      ],
+      "vacancies": [
+        {
+          "name": "Trainee DevOps Engineer",
+          "company": "Team.Inno / Фабрика инноваций и решений",
+          "area": "Гомель",
+          "salary": "з/п не указана",
+          "formats": "офис / удалённо / гибрид",
+          "url": "https://rabota.by/vacancy/138657948",
+          "experience": "без опыта"
+        },
+        {
+          "name": "Junior / Middle DevOps",
+          "company": "@jobforjunior",
+          "area": "Telegram",
+          "salary": "з/п не указана",
+          "formats": "удалённо",
+          "url": "https://t.me/jobforjunior/8642",
+          "experience": ""
+        }
+      ]
+    },
+    {
+      "track": "UI/UX дизайн",
+      "score": 45.5,
+      "roles": "Junior UI/UX Designer",
+      "note": "Портфолио решает всё; вакансий меньше, конкуренция высокая.",
+      "speedLabel": "9–12 месяцев",
+      "category": "design",
+      "entry": 2,
+      "strict": 1,
+      "total": 13,
+      "remote": 1,
+      "remotePct": 50,
+      "withSalary": 0,
+      "salaryMedian": null,
+      "salaryP25": null,
+      "salaryP75": null,
+      "learnSkills": [
+        "Figma",
+        "UX-исследования",
+        "Прототипы",
+        "Дизайн-системы",
+        "Android",
+        "iOS"
+      ],
+      "reasons": [
+        "2 entry-level вакансий за 14 дн.",
+        "1 строго «без опыта»",
+        "удалёнка в 50%",
+        "типичный срок входа: 9–12 месяцев"
+      ],
+      "vacancies": [
+        {
+          "name": "Middle / Middle+ UX/UI дизайнер",
+          "company": "Глушкова Ксения Евгеньевна",
+          "area": "Минск",
+          "salary": "з/п не указана",
+          "formats": "удалённо",
+          "url": "https://rabota.by/vacancy/139130823",
+          "experience": "без опыта"
+        },
+        {
+          "name": "Джуниор UX/UI-дизайнер",
+          "company": "@jobforjunior",
+          "area": "Telegram",
+          "salary": "з/п не указана",
+          "formats": "офис",
+          "url": "https://t.me/jobforjunior/8636",
+          "experience": ""
+        }
+      ]
+    },
+    {
+      "track": "Data / ML",
+      "score": 35.8,
+      "roles": "Data Analyst / Junior Data Scientist",
+      "note": "Долгий вход: нужна математика, Python и английский B1+. Лучше как второй шаг.",
+      "speedLabel": "12+ месяцев",
+      "category": "data",
+      "entry": 1,
+      "strict": 1,
+      "total": 8,
+      "remote": 0,
+      "remotePct": 0,
+      "withSalary": 0,
+      "salaryMedian": null,
+      "salaryP25": null,
+      "salaryP75": null,
+      "learnSkills": [
+        "Python",
+        "Pandas",
+        "SQL",
+        "Machine Learning",
+        "Английский B1",
+        "Android"
+      ],
+      "reasons": [
+        "1 entry-level вакансий за 14 дн.",
+        "1 строго «без опыта»",
+        "удалёнка в 0%",
+        "типичный срок входа: 12+ месяцев"
+      ],
+      "vacancies": [
+        {
+          "name": "Trainee Android developer",
+          "company": "Team.Inno / Фабрика инноваций и решений",
+          "area": "Минск",
+          "salary": "з/п не указана",
+          "formats": "офис",
+          "url": "https://rabota.by/vacancy/139686468",
+          "experience": "без опыта"
+        }
+      ]
+    },
+    {
+      "track": "Backend / Python",
+      "score": 35,
+      "roles": "Junior Python Developer",
+      "note": "Стабильный спрос, но вход дольше: нужны базы, SQL и один фреймворк.",
+      "speedLabel": "9–12 месяцев",
+      "category": "dev",
+      "entry": 2,
+      "strict": 0,
+      "total": 8,
+      "remote": 1,
+      "remotePct": 50,
+      "withSalary": 0,
+      "salaryMedian": null,
+      "salaryP25": null,
+      "salaryP75": null,
+      "learnSkills": [
+        "Python",
+        "SQL",
+        "Git",
+        "Django/Flask",
+        "API",
+        "Ansible"
+      ],
+      "reasons": [
+        "2 entry-level вакансий за 14 дн.",
+        "0 строго «без опыта»",
+        "удалёнка в 50%",
+        "типичный срок входа: 9–12 месяцев"
+      ],
+      "vacancies": [
+        {
+          "name": "Python-разработчик (fullstack, Junior+/Middle)",
+          "company": "АльфаМилк",
+          "area": "Минск",
+          "salary": "з/п не указана",
+          "formats": "удалённо",
+          "url": "https://rabota.by/vacancy/139902643",
+          "experience": "1–3 года"
+        },
+        {
+          "name": "Junior Go Developer!",
+          "company": "@team_inno_jobs",
+          "area": "Telegram",
+          "salary": "з/п не указана",
+          "formats": "",
+          "url": "https://t.me/team_inno_jobs/392",
+          "experience": ""
+        }
+      ]
+    },
+    {
+      "track": "Backend / Java",
+      "score": 27.8,
+      "roles": "Junior Java Developer",
+      "note": "Много корпоративных вакансий, но порог выше и обучение дольше.",
+      "speedLabel": "9–12 месяцев",
+      "category": "dev",
+      "entry": 1,
+      "strict": 0,
+      "total": 8,
+      "remote": 0,
+      "remotePct": 0,
+      "withSalary": 0,
+      "salaryMedian": null,
+      "salaryP25": null,
+      "salaryP75": null,
+      "learnSkills": [
+        "Java",
+        "Spring",
+        "SQL",
+        "Git",
+        "Maven"
+      ],
+      "reasons": [
+        "1 entry-level вакансий за 14 дн.",
+        "0 строго «без опыта»",
+        "удалёнка в 0%",
+        "типичный срок входа: 9–12 месяцев"
+      ],
+      "vacancies": [
+        {
+          "name": "Джуниор+ / Миддл Java-разработчик",
+          "company": "@jobforjunior",
+          "area": "Telegram",
+          "salary": "з/п не указана",
+          "formats": "офис",
+          "url": "https://t.me/jobforjunior/8644",
+          "experience": ""
+        }
+      ]
+    },
+    {
+      "track": "Backend / .NET",
+      "score": 27.8,
+      "roles": "Junior .NET Developer",
+      "note": "Популярно в белорусских IT-компаниях; нужны C#, SQL и ASP.NET.",
+      "speedLabel": "9–12 месяцев",
+      "category": "dev",
+      "entry": 1,
+      "strict": 0,
+      "total": 7,
+      "remote": 0,
+      "remotePct": 0,
+      "withSalary": 0,
+      "salaryMedian": null,
+      "salaryP25": null,
+      "salaryP75": null,
+      "learnSkills": [
+        "C#",
+        ".NET",
+        "SQL",
+        "Git",
+        "ASP.NET",
+        "Unity"
+      ],
+      "reasons": [
+        "1 entry-level вакансий за 14 дн.",
+        "0 строго «без опыта»",
+        "удалёнка в 0%",
+        "типичный срок входа: 9–12 месяцев"
+      ],
+      "vacancies": [
+        {
+          "name": "Junior Gameplay Engineer",
+          "company": "@jobforjunior",
+          "area": "Telegram",
+          "salary": "з/п не указана",
+          "formats": "гибрид",
+          "url": "https://t.me/jobforjunior/8628",
+          "experience": ""
+        }
+      ]
+    }
+  ],
+  "plan": [
+    "Неделя 1 — база: QA, тест-кейсы, чек-листы. 1–2 небольших практических кейса.",
+    "Неделя 2 — практика: Jira, SQL. Собрать мини-портфолио.",
+    "Неделя 3 — упаковка: резюме под «Manual QA Engineer / Тестировщик», 10 целевых откликов, разбор фидбека.",
+    "Неделя 4 — выход на рынок: ещё 20 откликов, 2–3 собеседования, корректировка резюме по отказам."
+  ],
+  "notes": [
+    "Оценка построена на вакансиях за окно наблюдения; при малой выборке это ориентир, а не гарантия.",
+    "Баллы учитывают количество entry-level вакансий, долю «без опыта», удалёнку, вилку, скорость входа и ваш профиль (QA/разработка, удалёнка, английский A1–A2).",
+    "Senior-вакансии в рейтинг не входят: учитываются только entry-level."
+  ]
+}

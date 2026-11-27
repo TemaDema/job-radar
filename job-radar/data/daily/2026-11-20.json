@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-20",
+  "restored": true,
+  "generatedAt": "2026-11-27T19:33:33.965Z",
+  "newTotal": 19,
+  "newEntry": 6,
+  "bySource": {
+    "rabota.by": 17,
+    "telegram": 2
+  },
+  "topSkills": {
+    "Git": 2,
+    "Machine Learning": 2,
+    "Jira": 1,
+    "Photoshop": 1,
+    "QA": 1,
+    "Unity": 1,
+    "Unreal Engine": 1,
+    "Функциональное тестирование": 1,
+    "Android": 1,
+    "Kotlin": 1
+  },
+  "note": "restored from publication date after a missed run"
+}

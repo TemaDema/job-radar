@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-25",
+  "restored": true,
+  "generatedAt": "2026-11-27T19:33:34.024Z",
+  "newTotal": 63,
+  "newEntry": 12,
+  "bySource": {
+    "rabota.by": 58,
+    "telegram": 5
+  },
+  "topSkills": {
+    "QA": 2,
+    "Java": 2,
+    "SQL": 1,
+    "Machine Learning": 1,
+    "Android": 1,
+    "Figma": 1,
+    "iOS": 1,
+    "Agile": 1,
+    "SAP": 1,
+    "API": 1
+  },
+  "note": "restored from publication date after a missed run"
+}

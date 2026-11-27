@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-24",
+  "restored": true,
+  "generatedAt": "2026-11-27T19:33:34.012Z",
+  "newTotal": 31,
+  "newEntry": 6,
+  "bySource": {
+    "rabota.by": 30,
+    "telegram": 1
+  },
+  "topSkills": {
+    "Photoshop": 2,
+    "Android": 1,
+    "Excel": 1,
+    "iOS": 1,
+    "Illustrator": 1
+  },
+  "note": "restored from publication date after a missed run"
+}

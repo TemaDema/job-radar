@@ -1,0 +1,43 @@
+{
+  "generatedAt": "2026-11-27T19:33:46.521Z",
+  "lastRun": "2026-11-27T19:33:34.033Z",
+  "missedFullDays": 0,
+  "backfilled": 6,
+  "window": {
+    "start": "2026-11-21",
+    "end": "2026-11-27",
+    "days": 7
+  },
+  "totalInStore": 305,
+  "newAll": 305,
+  "newEntry": 46,
+  "strictNoExperience": 23,
+  "remote": 10,
+  "withSalary": 12,
+  "bySource": {
+    "rabota.by": 271,
+    "telegram": 34
+  },
+  "topSkills": {
+    "Git": 7,
+    "QA": 6,
+    "Linux": 6,
+    "Python": 6,
+    "SQL": 5,
+    "API": 5,
+    "Docker": 4,
+    "Machine Learning": 4,
+    "Java": 4,
+    "JavaScript": 4,
+    "Windows Server": 3,
+    "Photoshop": 3,
+    "Android": 3,
+    "REST": 3,
+    "Jira": 2,
+    "Unity": 2,
+    "iOS": 2,
+    "C#": 2,
+    "HTTP": 2,
+    "SAP": 2
+  }
+}

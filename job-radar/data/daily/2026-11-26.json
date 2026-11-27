@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-26",
+  "generatedAt": "2026-11-25T22:03:45.032Z",
+  "source": "rabota.by",
+  "newTotal": 232,
+  "newEntry": 25,
+  "searchErrors": 0,
+  "remoteEntry": 8,
+  "withSalary": 9,
+  "byTrack": {
+    "QA / Тестирование": {
+      "count": 2,
+      "strict": 2,
+      "salaryMedian": 1550,
+      "withSalary": 1
+    },
+    "Администрирование": {
+      "count": 2,
+      "strict": 2,
+      "salaryMedian": 1825,
+      "withSalary": 2
+    },
+    "DevOps / Cloud": {
+      "count": 1,
+      "strict": 1,
+      "salaryMedian": null,
+      "withSalary": 0
+    },
+    "Стажировки": {
+      "count": 6,
+      "strict": 4,
+      "salaryMedian": 1850,
+      "withSalary": 2
+    },
+    "UI/UX дизайн": {
+      "count": 1,
+      "strict": 1,
+      "salaryMedian": null,
+      "withSalary": 0
+    },
+    "Поддержка / Helpdesk": {
+      "count": 4,
+      "strict": 4,
+      "salaryMedian": 1400,
+      "withSalary": 3
+    },
+    "Junior": {
+      "count": 3,
+      "strict": 1,
+      "salaryMedian": null,
+      "withSalary": 0
+    },
+    "Разработка (общее)": {
+      "count": 2,
+      "strict": 1,
+      "salaryMedian": null,
+      "withSalary": 0
+    },
+    "Frontend / JS": {
+      "count": 1,
+      "strict": 1,
+      "salaryMedian": null,
+      "withSalary": 0
+    },
+    "Backend / другое": {
+      "count": 2,
+      "strict": 2,
+      "salaryMedian": 1750,
+      "withSalary": 1
+    },
+    "Аналитика": {
+      "count": 1,
+      "strict": 1,
+      "salaryMedian": null,
+      "withSalary": 0
+    }
+  },
+  "topSkills": {
+    "Git": 5,
+    "Machine Learning": 4,
+    "QA": 3,
+    "Python": 3,
+    "Photoshop": 3,
+    "Android": 3,
+    "SQL": 2,
+    "Linux": 2,
+    "Jira": 2,
+    "iOS": 2,
+    "API": 2,
+    "HTTP": 2,
+    "Java": 2,
+    "JavaScript": 2,
+    "REST": 2
+  },
+  "topCompanies": {
+    "Брайт Эйдженси": 5,
+    "Team.Inno / Фабрика инноваций и решений": 3,
+    "Andersen": 1,
+    "СтаркГеймз": 1,
+    "Игро Тэк": 1,
+    "Глушкова Ксения Евгеньевна": 1,
+    "Доктор Сервер": 1,
+    "Кэтлоджик": 1,
+    "Syberry CIS": 1,
+    "НьюАпекс": 1
+  }
+}
