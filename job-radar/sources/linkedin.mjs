@@ -60,13 +60,13 @@ export function parseLinkedInHtml(html) {
 
 export async function collectLinkedIn(cfg, queries) {
   const lc = cfg.linkedin || {};
-  if (lc.enabled === false) return [];
+  if (lc.enabled === false) return { items: [], ok: true };
 
   const keywords =
     Array.isArray(lc.keywords) && lc.keywords.length
       ? lc.keywords
       : [...new Set((queries || []).map((q) => q.text).filter(Boolean))].slice(0, 8);
-  if (!keywords.length) return [];
+  if (!keywords.length) return { items: [], ok: true };
 
   const location = lc.location || "Belarus";
   const pages = lc.pages ?? 1;
@@ -89,6 +89,7 @@ export async function collectLinkedIn(cfg, queries) {
 
   const out = [];
   const seen = new Set();
+  let ok = false;
 
   for (const keyword of batch) {
     for (let page = 0; page < pages; page++) {
@@ -107,13 +108,14 @@ export async function collectLinkedIn(cfg, queries) {
         });
         if ([429, 999, 403].includes(res.status)) {
           log(`linkedin: HTTP ${res.status} — rate limited, stopping`);
-          return out;
+          return { items: out, ok: false };
         }
         if (!res.ok) {
           log(`linkedin "${keyword}": HTTP ${res.status}`);
           break;
         }
         html = await res.text();
+        ok = true;
       } catch (e) {
         log(`linkedin "${keyword}": ERROR ${e.message}`);
         break;
@@ -146,12 +148,12 @@ export async function collectLinkedIn(cfg, queries) {
         kept++;
         if (out.length >= maxPerRun) {
           log(`linkedin: reached maxPerRun=${maxPerRun}`);
-          return out;
+          return { items: out, ok };
         }
       }
       log(`linkedin "${keyword}" p${page}: cards=${cards.length} kept=${kept}`);
       await sleep(delay);
     }
   }
-  return out;
+  return { items: out, ok };
 }

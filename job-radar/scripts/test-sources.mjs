@@ -13,8 +13,8 @@ const cfg = loadConfig();
 const args = process.argv.slice(2);
 const want = (s) => !args.length || args.includes(s);
 
-function show(source, list) {
-  log(`${source}: ${list.length} vacancies`);
+function show(source, list, ok) {
+  log(`${source}: ${list.length} vacancies${ok === false ? " (source failed)" : ""}`);
   for (const v of list.slice(0, 10)) {
     console.log(
       `  - [${v.entry ? "entry" : "     "}] ${v.name} | ${v.company} | ${v.url}`
@@ -23,11 +23,11 @@ function show(source, list) {
 }
 
 if (want("telegram")) {
-  const list = await collectTelegram(cfg, cfg.queries);
-  show("telegram", list);
+  const { items, ok } = await collectTelegram(cfg, cfg.queries);
+  show("telegram", items, ok);
 }
 
 if (want("linkedin")) {
-  const list = await collectLinkedIn(cfg, cfg.queries);
-  show("linkedin", list);
+  const { items, ok } = await collectLinkedIn(cfg, cfg.queries);
+  show("linkedin", items, ok);
 }

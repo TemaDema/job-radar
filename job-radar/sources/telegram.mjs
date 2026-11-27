@@ -68,13 +68,14 @@ export function parseTelegramHtml(html) {
 export async function collectTelegram(cfg, queries) {
   const tc = cfg.telegram || {};
   const channels = tc.channels || [];
-  if (!channels.length) return [];
+  if (!channels.length) return { items: [], ok: true };
 
   const maxPosts = tc.maxPostsPerChannel ?? 40;
   const delay = tc.delayMs ?? 2000;
   const maxPerRun = tc.maxPerRun ?? 150;
 
   const out = [];
+  let ok = false;
   for (const channel of channels) {
     try {
       const html = await fetchChannelHtml(channel);
@@ -82,6 +83,7 @@ export async function collectTelegram(cfg, queries) {
         log(`telegram @${channel}: channel not found (404)`);
         continue;
       }
+      ok = true;
       const posts = parseTelegramHtml(html).slice(-maxPosts);
       let kept = 0;
       for (const p of posts) {
@@ -114,7 +116,7 @@ export async function collectTelegram(cfg, queries) {
         kept++;
         if (out.length >= maxPerRun) {
           log(`telegram: reached maxPerRun=${maxPerRun}`);
-          return out;
+          return { items: out, ok };
         }
       }
       log(`telegram @${channel}: posts=${posts.length} kept=${kept}`);
@@ -123,5 +125,5 @@ export async function collectTelegram(cfg, queries) {
     }
     await sleep(delay);
   }
-  return out;
+  return { items: out, ok };
 }

@@ -29,6 +29,17 @@ import {
 import { collectTelegram } from "../sources/telegram.mjs";
 import { collectLinkedIn } from "../sources/linkedin.mjs";
 import { generateExports } from "./export.mjs";
+import {
+  runEnv,
+  readRunState,
+  readRemoteRunState,
+  mergeStates,
+  completedSources,
+  appendRun,
+  writeRunState,
+  publishLocal,
+  pullLatest,
+} from "./run-state.mjs";
 
 const cfg = loadConfig();
 ensureDirs();
@@ -39,10 +50,39 @@ const startedAt = new Date();
 
 const argSources = process.argv.slice(2).filter((a) => !a.startsWith("-"));
 const activeSources = argSources.length ? argSources : cfg.sources || ["rabota.by"];
+const force = process.argv.includes("--force");
+const shouldPublish = process.argv.includes("--publish");
+const env = runEnv();
 
 log(
-  `run start ${startedAt.toISOString()} today=${today} sources=${activeSources.join(",")}`
+  `run start ${startedAt.toISOString()} today=${today} env=${env} sources=${activeSources.join(",")}`
 );
+
+/* Skip when today's slice is already done by the other environment. */
+let runState = readRunState(today);
+const remoteState = readRemoteRunState(today);
+if (remoteState) runState = mergeStates(runState, remoteState);
+
+const doneSources = completedSources(runState);
+const missingSources = activeSources.filter((s) => !doneSources.has(s));
+const runSources = force ? activeSources : missingSources;
+
+if (!runSources.length) {
+  log(`skip: today's slice already done [${[...doneSources].join(", ")}]`);
+  if (env === "local") {
+    const pulled = pullLatest();
+    log(pulled ? "pulled latest data from origin/main" : "pull skipped or failed");
+  }
+  process.exit(0);
+}
+if (runSources.length !== activeSources.length) {
+  log(
+    `resume: done [${[...doneSources].join(", ")}] · running [${runSources.join(", ")}]`
+  );
+}
+
+const sourcesOk = [];
+const sourcesFailed = [];
 
 /* ------------------------------------------------------------------ */
 /* Catch-up: restore daily slices for days when the PC was off        */
@@ -172,7 +212,7 @@ const found = new Map();
 let searchErrors = 0;
 let captchaHit = false;
 
-if (activeSources.includes("rabota.by")) {
+if (runSources.includes("rabota.by")) {
 for (const q of cfg.queries) {
   try {
     const items = await searchVacancies(cfg, q);
@@ -203,6 +243,14 @@ for (const q of cfg.queries) {
 }
 }
 log(`search done: unique=${found.size} errors=${searchErrors}`);
+
+if (runSources.includes("rabota.by")) {
+  if (captchaHit || (searchErrors > 0 && searchErrors === cfg.queries.length)) {
+    sourcesFailed.push("rabota.by");
+  } else {
+    sourcesOk.push("rabota.by");
+  }
+}
 
 /* ------------------------------------------------------------------ */
 /* 2. Merge into store                                                 */
@@ -252,21 +300,25 @@ log(`merge done: new=${newCount} total=${Object.keys(store.vacancies).length}`);
 /* ------------------------------------------------------------------ */
 
 const external = [];
-if (activeSources.includes("telegram")) {
+if (runSources.includes("telegram")) {
   try {
-    const list = await collectTelegram(cfg, cfg.queries);
-    external.push(...list);
-    log(`telegram: collected=${list.length}`);
+    const { items, ok } = await collectTelegram(cfg, cfg.queries);
+    external.push(...items);
+    (ok ? sourcesOk : sourcesFailed).push("telegram");
+    log(`telegram: collected=${items.length} ok=${ok}`);
   } catch (e) {
+    sourcesFailed.push("telegram");
     log(`telegram: ERROR ${e.message}`);
   }
 }
-if (activeSources.includes("linkedin")) {
+if (runSources.includes("linkedin")) {
   try {
-    const list = await collectLinkedIn(cfg, cfg.queries);
-    external.push(...list);
-    log(`linkedin: collected=${list.length}`);
+    const { items, ok } = await collectLinkedIn(cfg, cfg.queries);
+    external.push(...items);
+    (ok ? sourcesOk : sourcesFailed).push("linkedin");
+    log(`linkedin: collected=${items.length} ok=${ok}`);
   } catch (e) {
+    sourcesFailed.push("linkedin");
     log(`linkedin: ERROR ${e.message}`);
   }
 }
@@ -595,6 +647,20 @@ log(
 const backfilled = backfillDailyReports(cfg, store, today);
 if (backfilled) log(`backfill: restored ${backfilled} daily slice(s) for missed days`);
 
+runState = appendRun(runState, {
+  env,
+  at: new Date().toISOString(),
+  sourcesOk,
+  sourcesFailed,
+  newTotal: todays.length,
+  newEntry: todaysEntry.length,
+  captcha: captchaHit,
+});
+writeRunState(runState);
+log(
+  `run journal: ok=[${sourcesOk.join(", ")}] failed=[${sourcesFailed.join(", ")}]`
+);
+
 try {
   const out = generateExports();
   log(
@@ -626,7 +692,10 @@ try {
     lastRunAt: startedAt.toISOString(),
     lastSuccessAt: new Date().toISOString(),
     today,
-    sources: activeSources,
+    env,
+    sources: runSources,
+    sourcesOk,
+    sourcesFailed,
     newTotal: todays.length,
     newEntry: todaysEntry.length,
     searchErrors,
@@ -638,4 +707,13 @@ try {
   log(`status updated (missed full days before run: ${missedFullDays})`);
 } catch (e) {
   log(`status: ERROR ${e.message}`);
+}
+
+if (shouldPublish) {
+  const pub = publishLocal(today, `job-radar(local): ${today}`);
+  log(
+    pub.published
+      ? "published: origin/main updated with today's slice"
+      : `publish skipped: ${pub.reason}`
+  );
 }
