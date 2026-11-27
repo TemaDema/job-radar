@@ -77,6 +77,28 @@ node "D:\opencode\Новая работа\job-radar\scripts\weekly-stats.mjs"
 
 Окно статистики задаётся в `config.json` параметром `exportDays` (по умолчанию 7 дней), окно для вывода «что выбрать» — `recommendDays` (по умолчанию 14 дней).
 
+## Просмотр с телефона
+
+Дашборд адаптирован под мобильный экран. Чтобы открывать его по ссылке:
+
+1. Сделайте репозиторий публичным: **Settings → General → Danger Zone → Change visibility → Make public**. В проекте нет секретов, только вакансии и отчёты.
+2. Включите Pages: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+3. Запустите workflow **Job Radar Pages** вручную (Actions → Job Radar Pages → Run workflow) или дождитесь следующего коммита отчётов.
+
+Ссылка будет такой:
+
+```
+https://TemaDema.github.io/job-radar/
+```
+
+Дальше страница обновляется автоматически после каждого сбора — workflow `pages.yml` срабатывает на изменения в `job-radar/reports/`.
+
+Если делать репозиторий публичным не хочется:
+
+- в мобильном приложении GitHub открывайте `reports/recommendation.md` — Markdown отображается нормально, там есть вывод, рейтинг и план;
+- `reports/vacancies.csv` можно скачать и открыть в Excel/Google Sheets;
+- альтернатива — Telegram-бот, который присылает краткий итог в личку (нужен свой бот и токен в секретах GitHub).
+
 ## Если компьютер выключен
 
 Локальная автоматизация живёт внутри OpenCode и работает, только когда ПК включён и приложение запущено. Поэтому локальный и облачный запуски согласованы через общий журнал `data/runs/YYYY-MM-DD.json`:

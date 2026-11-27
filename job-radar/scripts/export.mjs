@@ -270,6 +270,20 @@ function buildHtml({ cfg, today, start, all, cur, curEntry, daily, rec, status }
   .reco-plan li { margin:8px 0; }
   .reco-vacancies { margin-top:0; }
   .warn { background:#fff7e6; border:1px solid #f3d19b; color:#7a5200; border-radius:12px; padding:12px 14px; margin:14px 0; font-size:14px; }
+  .table-wrap { overflow-x:auto; -webkit-overflow-scrolling:touch; }
+  @media (max-width:640px) {
+    .wrap { padding:18px 12px 40px; }
+    header h1 { font-size:23px; }
+    .cards { grid-template-columns:repeat(2,1fr); }
+    .card .num { font-size:24px; }
+    .day { grid-template-columns:88px 1fr 28px; }
+    .day-entry { display:none; }
+    .src-row { grid-template-columns:90px 1fr 34px; }
+    th, td { padding:7px 5px; font-size:13px; }
+    .reco-main { font-size:24px; }
+    .reco-grid { grid-template-columns:1fr; }
+    .files a { width:100%; }
+  }
 </style>
 </head>
 <body>
@@ -306,10 +320,12 @@ function buildHtml({ cfg, today, start, all, cur, curEntry, daily, rec, status }
 
   <section>
     <h2>Направления (entry-level)</h2>
+    <div class="table-wrap">
     <table>
       <thead><tr><th>Направление</th><th class="num">Новых</th><th class="num">Без опыта</th><th class="num">Медиана, BYN</th><th class="num">p25–p75</th></tr></thead>
       <tbody>${trackRows || '<tr><td colspan="5" class="muted">Нет данных</td></tr>'}</tbody>
     </table>
+    </div>
   </section>
 
   <section>
