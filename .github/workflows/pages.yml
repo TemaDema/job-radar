@@ -5,10 +5,6 @@ name: Job Radar Pages
 # Включите: Settings -> Pages -> Build and deployment -> Source: GitHub Actions.
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - "job-radar/reports/**"
   workflow_dispatch:
 
 permissions:
