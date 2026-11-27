@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-28",
+  "runs": [
+    {
+      "env": "local",
+      "at": "2026-11-27T23:10:07.472Z",
+      "sourcesOk": [
+        "telegram"
+      ],
+      "sourcesFailed": [],
+      "newTotal": 0,
+      "newEntry": 0,
+      "captcha": false
+    }
+  ]
+}

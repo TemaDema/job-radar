@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-27T19:33:33.947Z",
+ "updatedAt": "2026-11-27T23:10:07.469Z",
  "vacancies": {
   "125837653": {
    "id": "125837653",
@@ -11152,7 +11152,7 @@
     "junior"
    ],
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27",
+   "lastSeen": "2026-11-28",
    "entry": true,
    "entryReason": "keyword:junior",
    "skills": [
@@ -11196,7 +11196,7 @@
    ],
    "queries": [],
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27",
+   "lastSeen": "2026-11-28",
    "entry": false,
    "entryReason": null,
    "skills": [
@@ -11231,7 +11231,7 @@
    ],
    "queries": [],
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27",
+   "lastSeen": "2026-11-28",
    "entry": false,
    "entryReason": null,
    "skills": [
@@ -11270,7 +11270,7 @@
    ],
    "queries": [],
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27",
+   "lastSeen": "2026-11-28",
    "entry": false,
    "entryReason": null,
    "skills": [],
@@ -11302,7 +11302,7 @@
     "ux"
    ],
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27",
+   "lastSeen": "2026-11-28",
    "entry": false,
    "entryReason": null,
    "skills": [
@@ -11338,7 +11338,7 @@
     "junior"
    ],
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27",
+   "lastSeen": "2026-11-28",
    "entry": true,
    "entryReason": "keyword:junior",
    "skills": [
@@ -11386,7 +11386,7 @@
    ],
    "queries": [],
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27",
+   "lastSeen": "2026-11-28",
    "entry": false,
    "entryReason": null,
    "skills": [
@@ -11437,7 +11437,7 @@
     "dotnet"
    ],
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27",
+   "lastSeen": "2026-11-28",
    "entry": false,
    "entryReason": null,
    "skills": [
@@ -11496,7 +11496,7 @@
    ],
    "queries": [],
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27",
+   "lastSeen": "2026-11-28",
    "entry": false,
    "entryReason": null,
    "skills": [
@@ -11538,7 +11538,7 @@
     "junior"
    ],
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27",
+   "lastSeen": "2026-11-28",
    "entry": true,
    "entryReason": "keyword:junior",
    "skills": [
@@ -11576,7 +11576,7 @@
     "intern"
    ],
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27",
+   "lastSeen": "2026-11-28",
    "entry": true,
    "entryReason": "keyword:стажёр",
    "skills": [
@@ -11613,7 +11613,7 @@
     "junior"
    ],
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27",
+   "lastSeen": "2026-11-28",
    "entry": true,
    "entryReason": "keyword:junior",
    "skills": [],
@@ -11643,7 +11643,7 @@
    ],
    "queries": [],
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27",
+   "lastSeen": "2026-11-28",
    "entry": true,
    "entryReason": "keyword:intern",
    "skills": [
@@ -11678,7 +11678,7 @@
    ],
    "queries": [],
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27",
+   "lastSeen": "2026-11-28",
    "entry": true,
    "entryReason": "keyword:джун",
    "skills": [],
@@ -11712,7 +11712,7 @@
     "qa-testirovshik"
    ],
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27",
+   "lastSeen": "2026-11-28",
    "entry": true,
    "entryReason": "keyword:джун",
    "skills": [],
@@ -11744,7 +11744,7 @@
     "junior"
    ],
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27",
+   "lastSeen": "2026-11-28",
    "entry": true,
    "entryReason": "keyword:junior",
    "skills": [],
@@ -11778,7 +11778,7 @@
     "ux"
    ],
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27",
+   "lastSeen": "2026-11-28",
    "entry": true,
    "entryReason": "keyword:джун",
    "skills": [],
@@ -11812,7 +11812,7 @@
     "junior"
    ],
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27",
+   "lastSeen": "2026-11-28",
    "entry": true,
    "entryReason": "keyword:junior",
    "skills": [],
@@ -11846,7 +11846,7 @@
     "devops"
    ],
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27",
+   "lastSeen": "2026-11-28",
    "entry": true,
    "entryReason": "keyword:junior",
    "skills": [
@@ -11882,7 +11882,7 @@
    ],
    "queries": [],
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27",
+   "lastSeen": "2026-11-28",
    "entry": false,
    "entryReason": null,
    "skills": [],
@@ -11916,7 +11916,7 @@
     "java"
    ],
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27",
+   "lastSeen": "2026-11-28",
    "entry": true,
    "entryReason": "keyword:джун",
    "skills": [
@@ -11952,7 +11952,7 @@
     "junior"
    ],
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27",
+   "lastSeen": "2026-11-28",
    "entry": true,
    "entryReason": "keyword:junior",
    "skills": [],
@@ -11986,7 +11986,7 @@
     "qa"
    ],
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27",
+   "lastSeen": "2026-11-28",
    "entry": true,
    "entryReason": "keyword:junior",
    "skills": [
@@ -12022,7 +12022,7 @@
     "qa"
    ],
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27",
+   "lastSeen": "2026-11-28",
    "entry": false,
    "entryReason": null,
    "skills": [
@@ -12058,7 +12058,7 @@
     "qa-testirovshik"
    ],
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27",
+   "lastSeen": "2026-11-28",
    "entry": true,
    "entryReason": "keyword:джун",
    "skills": [],
@@ -12092,7 +12092,7 @@
     "java"
    ],
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27",
+   "lastSeen": "2026-11-28",
    "entry": false,
    "entryReason": null,
    "skills": [
@@ -12129,7 +12129,7 @@
     "qa"
    ],
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27",
+   "lastSeen": "2026-11-28",
    "entry": false,
    "entryReason": null,
    "skills": [
@@ -12165,7 +12165,7 @@
     "qa"
    ],
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27",
+   "lastSeen": "2026-11-28",
    "entry": false,
    "entryReason": null,
    "skills": [
@@ -12200,7 +12200,7 @@
     "qa"
    ],
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27",
+   "lastSeen": "2026-11-28",
    "entry": false,
    "entryReason": null,
    "skills": [
@@ -12236,7 +12236,7 @@
     "qa"
    ],
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27",
+   "lastSeen": "2026-11-28",
    "entry": true,
    "entryReason": "keyword:junior",
    "skills": [
@@ -12270,7 +12270,7 @@
     "csharp"
    ],
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27",
+   "lastSeen": "2026-11-28",
    "entry": false,
    "entryReason": null,
    "skills": [
@@ -12307,7 +12307,7 @@
     "qa"
    ],
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27",
+   "lastSeen": "2026-11-28",
    "entry": false,
    "entryReason": null,
    "skills": [
@@ -12343,7 +12343,7 @@
     "python"
    ],
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27",
+   "lastSeen": "2026-11-28",
    "entry": false,
    "entryReason": null,
    "skills": [
@@ -12381,7 +12381,7 @@
     "qa"
    ],
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27",
+   "lastSeen": "2026-11-28",
    "entry": false,
    "entryReason": null,
    "skills": [

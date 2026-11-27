@@ -1,15 +1,20 @@
 {
-  "lastRunAt": "2026-11-27T19:33:27.496Z",
-  "lastSuccessAt": "2026-11-27T19:33:34.033Z",
-  "today": "2026-11-27",
+  "lastRunAt": "2026-11-27T23:09:59.841Z",
+  "lastSuccessAt": "2026-11-27T23:10:07.492Z",
+  "today": "2026-11-28",
+  "env": "local",
   "sources": [
     "telegram"
   ],
-  "newTotal": 73,
-  "newEntry": 21,
+  "sourcesOk": [
+    "telegram"
+  ],
+  "sourcesFailed": [],
+  "newTotal": 0,
+  "newEntry": 0,
   "searchErrors": 0,
   "captcha": false,
-  "backfilled": 6,
+  "backfilled": 0,
   "missedFullDays": 0,
   "history": [
     {
@@ -35,6 +40,15 @@
       "today": "2026-11-27",
       "newTotal": 73,
       "newEntry": 21,
+      "sources": [
+        "telegram"
+      ]
+    },
+    {
+      "at": "2026-11-27T23:10:07.492Z",
+      "today": "2026-11-28",
+      "newTotal": 0,
+      "newEntry": 0,
       "sources": [
         "telegram"
       ]
