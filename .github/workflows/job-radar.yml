@@ -12,6 +12,11 @@ on:
     - cron: "40 5 * * *"
     - cron: "0 6 * * 1"
   workflow_dispatch:
+    inputs:
+      force:
+        description: "Игнорировать журнал и собрать все источники заново"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -35,7 +40,7 @@ jobs:
           node-version: "20"
 
       - name: Collect vacancies
-        run: node job-radar/scripts/fetch.mjs
+        run: node job-radar/scripts/fetch.mjs ${{ inputs.force && '--force' || '' }}
 
       - name: Weekly stats (Mondays)
         if: github.event.schedule == '0 6 * * 1'
