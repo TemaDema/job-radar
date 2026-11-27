@@ -77,6 +77,15 @@ export function completedSources(state) {
 
 export function appendRun(state, entry) {
   const runs = (state.runs || []).filter((r) => r.env !== entry.env);
+  const prev = (state.runs || []).find((r) => r.env === entry.env);
+  if (prev) {
+    entry.sourcesOk = [
+      ...new Set([...(prev.sourcesOk || []), ...(entry.sourcesOk || [])]),
+    ];
+    entry.sourcesFailed = [
+      ...new Set([...(prev.sourcesFailed || []), ...(entry.sourcesFailed || [])]),
+    ].filter((s) => !entry.sourcesOk.includes(s));
+  }
   runs.push(entry);
   return { date: state.date, runs };
 }
