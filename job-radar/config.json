@@ -10,6 +10,7 @@
   "maxDescriptionsPerRun": 40,
   "exportDays": 7,
   "recommendDays": 14,
+  "coordinationWindowMinutes": 240,
   "sources": ["rabota.by", "telegram", "linkedin"],
   "telegram": {
     "channels": ["team_inno_jobs", "jobforjunior", "forallqa"],

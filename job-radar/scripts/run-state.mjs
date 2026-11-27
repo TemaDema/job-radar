@@ -67,9 +67,12 @@ export function readRemoteRunState(date) {
   }
 }
 
-export function completedSources(state) {
+export function completedSources(state, windowMinutes = 240) {
+  const cutoff = Date.now() - windowMinutes * 60000;
   const set = new Set();
   for (const r of state?.runs || []) {
+    const at = Date.parse(r.at || "");
+    if (!Number.isFinite(at) || at < cutoff) continue;
     for (const s of r.sourcesOk || []) set.add(s);
   }
   return set;

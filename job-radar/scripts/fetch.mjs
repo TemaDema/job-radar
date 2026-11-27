@@ -63,7 +63,10 @@ let runState = readRunState(today);
 const remoteState = readRemoteRunState(today);
 if (remoteState) runState = mergeStates(runState, remoteState);
 
-const doneSources = completedSources(runState);
+const doneSources = completedSources(
+  runState,
+  cfg.coordinationWindowMinutes || 240
+);
 const missingSources = activeSources.filter((s) => !doneSources.has(s));
 const runSources = force ? activeSources : missingSources;
 
