@@ -213,6 +213,7 @@ function buildHtml({ cfg, today, start, all, cur, curEntry, daily, rec, status }
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
 <title>Job Radar — статистика ${esc(today)}</title>
 <style>
   :root { --bg:#f5f7fb; --card:#fff; --ink:#1c2430; --muted:#68727f; --line:#e4e8ef; --accent:#3f6fe0; }
