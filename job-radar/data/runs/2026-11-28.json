@@ -3,16 +3,15 @@
   "runs": [
     {
       "env": "local",
-      "at": "2026-11-27T23:12:18.844Z",
+      "at": "2026-11-28T05:31:14.031Z",
       "sourcesOk": [
         "rabota.by",
-        "telegram"
-      ],
-      "sourcesFailed": [
+        "telegram",
         "linkedin"
       ],
-      "newTotal": 0,
-      "newEntry": 0,
+      "sourcesFailed": [],
+      "newTotal": 10,
+      "newEntry": 1,
       "captcha": false
     }
   ]

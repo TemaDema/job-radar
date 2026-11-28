@@ -1,16 +1,29 @@
 {
   "date": "2026-11-28",
-  "generatedAt": "2026-11-27T23:12:18.843Z",
+  "generatedAt": "2026-11-28T05:31:14.030Z",
   "sources": [
-    "telegram"
+    "rabota.by",
+    "telegram",
+    "linkedin"
   ],
-  "newTotal": 0,
-  "newEntry": 0,
+  "newTotal": 10,
+  "newEntry": 1,
   "searchErrors": 0,
   "remoteEntry": 0,
   "withSalary": 0,
-  "bySource": {},
-  "byTrack": {},
+  "bySource": {
+    "linkedin": 10
+  },
+  "byTrack": {
+    "Junior": {
+      "count": 1,
+      "strict": 0,
+      "salaryMedian": null,
+      "withSalary": 0
+    }
+  },
   "topSkills": {},
-  "topCompanies": {}
+  "topCompanies": {
+    "Quadcode": 1
+  }
 }

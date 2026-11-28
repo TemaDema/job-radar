@@ -1,17 +1,21 @@
 {
-  "lastRunAt": "2026-11-27T23:12:11.279Z",
-  "lastSuccessAt": "2026-11-27T23:12:18.856Z",
+  "lastRunAt": "2026-11-28T05:30:01.395Z",
+  "lastSuccessAt": "2026-11-28T05:31:14.042Z",
   "today": "2026-11-28",
   "env": "local",
   "sources": [
-    "telegram"
+    "rabota.by",
+    "telegram",
+    "linkedin"
   ],
   "sourcesOk": [
-    "telegram"
+    "rabota.by",
+    "telegram",
+    "linkedin"
   ],
   "sourcesFailed": [],
-  "newTotal": 0,
-  "newEntry": 0,
+  "newTotal": 10,
+  "newEntry": 1,
   "searchErrors": 0,
   "captcha": false,
   "backfilled": 0,
@@ -71,6 +75,17 @@
       "newEntry": 0,
       "sources": [
         "telegram"
+      ]
+    },
+    {
+      "at": "2026-11-28T05:31:14.042Z",
+      "today": "2026-11-28",
+      "newTotal": 10,
+      "newEntry": 1,
+      "sources": [
+        "rabota.by",
+        "telegram",
+        "linkedin"
       ]
     }
   ]

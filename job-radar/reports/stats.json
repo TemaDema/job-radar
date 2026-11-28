@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T23:31:08.012Z",
+  "generatedAt": "2026-11-28T05:31:14.041Z",
   "lastRun": "2026-11-27T23:12:18.856Z",
   "missedFullDays": 0,
   "backfilled": 0,
@@ -8,15 +8,16 @@
     "end": "2026-11-28",
     "days": 7
   },
-  "totalInStore": 305,
-  "newAll": 305,
-  "newEntry": 46,
+  "totalInStore": 315,
+  "newAll": 315,
+  "newEntry": 47,
   "strictNoExperience": 23,
   "remote": 10,
   "withSalary": 12,
   "bySource": {
     "rabota.by": 271,
-    "telegram": 34
+    "telegram": 34,
+    "linkedin": 10
   },
   "topSkills": {
     "Git": 7,

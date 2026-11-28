@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-27T23:31:08.009Z",
+  "generatedAt": "2026-11-28T05:31:14.038Z",
   "window": {
     "start": "2026-11-15",
     "end": "2026-11-28",
     "days": 14
   },
-  "sample": 305,
+  "sample": 315,
   "top": {
     "track": "QA / Тестирование",
     "score": 66.2,
@@ -503,7 +503,7 @@
       "category": "infra",
       "entry": 2,
       "strict": 1,
-      "total": 16,
+      "total": 20,
       "remote": 2,
       "remotePct": 100,
       "withSalary": 0,
